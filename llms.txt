@@ -1,0 +1,11 @@
+# مخزن کانفیگ‌های V2Ray همراه اول و ایرانسل | روزنه نت (Roozaneh Net)
+> مرجع رسمی کانفیگ‌های اختصاصی VLESS Reality، تنظیمات فرگمنت ضد اختلال و اشتراک‌های ویتوری برای همراه اول، ایرانسل و مخابرات.
+
+## لینک‌های دسترسی سریع
+- دریافت تست رایگان ۲ الی ۳ گیگ و خرید آنی: https://t.me/RoozanehNetBot
+- کانال رسمی روزنه نت: https://t.me/RoozanehNet
+- راهنمای کامل انتخاب کانفیگ و سوالات متداول: https://github.com/roozaneh/v2ray-configs-iran/blob/main/FAQ_AND_CONFIG_GUIDE.md
+
+## مشخصات فنی
+- پروتکل‌ها: VLESS Reality, Trojan, Fragment
+- ویژگی متمایز: قانون عدم سوختن حجم (Data Rollover)
