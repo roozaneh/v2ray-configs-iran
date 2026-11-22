@@ -7,6 +7,7 @@
 > **«پایدارترین زیرساخت کانفیگ‌های اختصاصی V2Ray، ضد فیلترینگ تهاجمی <bdi>(DPI)</bdi> و بدون افت پینگ»**  
 > مجهز به هسته بهینه‌شده Xray و Sing-box، پروتکل‌های نسل سوم **VLESS XTLS Reality**، فناوری اختصاصی **فرگمنت پکت‌های TLS <bdi>(Packet Fragmentation)</bdi>** و روتینگ تفکیک‌شده برای دکل‌های **همراه اول <bdi>(MCI)</bdi>**، **ایرانسل <bdi>(Irancell)</bdi>**، **رایتل <bdi>(Rightel)</bdi>** و تمامی ارائه‌دهندگان اینترنت ثابت خانگی (مخابرات، شاتل، آسیاتک، زیتل و های‌وب).
 
+[![Live Website](https://img.shields.io/badge/🌐_مشاهده_وب‌سایت_رسمی-کلیک_کنید-059669?style=for-the-badge&logo=googlechrome&logoColor=white)](https://roozaneh.github.io/v2ray-configs-iran/)
 [![Telegram Bot](https://img.shields.io/badge/ربات_دریافت_کانفیگ_و_تست-@RoozanehNetBot-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RoozanehNetBot?start=gh_config)
 [![Support](https://img.shields.io/badge/پشتیبانی_فنی-آنلاین-brightgreen?style=for-the-badge)](https://t.me/RozanehaiSupportBot)
 [![Channel](https://img.shields.io/badge/کانال_روزنه_نت-@RoozanehNet-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/RoozanehNet)
@@ -14,6 +15,12 @@
 [![Updated](https://img.shields.io/badge/بروزرسانی-نوامبر_۲۰۲۶-blueviolet?style=for-the-badge)]()
 
 ---
+
+
+> [!NOTE]
+> 🌐 **شبکه وب‌سایت‌های لایو روزنه نت (<bdi>Live Web Network</bdi>):**  
+> [🛍️ وب‌سایت خرید VPN و تست](https://roozaneh.github.io/kharid-vpn-filter-shekan/) • [📡 وب‌سایت کانفیگ‌های ایران](https://roozaneh.github.io/v2ray-configs-iran/) • [🛡️ وب‌سایت تانل اینترنت ملی](https://roozaneh.github.io/iran-tunnel-v2ray-netmeli/) • [📲 وب‌سایت دانلود نرم‌افزارها](https://roozaneh.github.io/v2ray-clients-download/)
+
 
 ### ⚡ شروع سریع در ۳ مرحله ساده (اتصال زیر ۳۰ ثانیه):
 <kbd> ۱. دانلود کلاینت رسمی V2Ray </kbd> ➔ <kbd> ۲. دریافت ۲ تا ۳ گیگ تست رایگان </kbd> ➔ <kbd> ۳. کپی لینک هوشمند و اتصال </kbd>
