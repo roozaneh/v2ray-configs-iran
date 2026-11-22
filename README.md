@@ -9,7 +9,7 @@
 
 [![Live Website](https://img.shields.io/badge/🌐_مشاهده_وب‌سایت_رسمی-کلیک_کنید-059669?style=for-the-badge&logo=googlechrome&logoColor=white)](https://roozaneh.github.io/v2ray-configs-iran/)
 [![Telegram Bot](https://img.shields.io/badge/ربات_دریافت_کانفیگ_و_تست-@RoozanehNetBot-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RoozanehNetBot?start=gh_config)
-[![Support](https://img.shields.io/badge/پشتیبانی_فنی-آنلاین-brightgreen?style=for-the-badge)](https://t.me/RozanehaiSupportBot)
+[![Support](https://img.shields.io/badge/پشتیبانی_فنی-آنلاین-brightgreen?style=for-the-badge)](https://t.me/RoozanehHelp)
 [![Channel](https://img.shields.io/badge/کانال_روزنه_نت-@RoozanehNet-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/RoozanehNet)
 [![Uptime](https://img.shields.io/badge/پایداری_کانفیگ‌ها-۹۹.۹۸%25-orange?style=for-the-badge)]()
 [![Updated](https://img.shields.io/badge/بروزرسانی-نوامبر_۲۰۲۶-blueviolet?style=for-the-badge)]()
@@ -210,7 +210,7 @@
 
 * 🤖 **ربات رسمی خرید و دریافت کانفیگ تست:** [<bdi>@RoozanehNetBot</bdi>](https://t.me/RoozanehNetBot?start=gh_config)
 * 📢 **کانال اطلاع‌رسانی و وضعیت سرورها:** [<bdi>@RoozanehNet</bdi>](https://t.me/RoozanehNet)
-* 💬 **پشتیبانی فنی و استعلام سازگاری اپراتور:** [<bdi>@RozanehaiSupportBot</bdi>](https://t.me/RozanehaiSupportBot)
+* 💬 **پشتیبانی فنی و استعلام سازگاری اپراتور:** [<bdi>@RoozanehHelp</bdi>](https://t.me/RoozanehHelp)
 * 🌐 **پرتال رسمی در گیت‌هاب پیج:** [roozaneh.github.io/v2ray-configs-iran](https://roozaneh.github.io/v2ray-configs-iran/)
 
 </div>
