@@ -5,7 +5,7 @@
 > این مستند تخصصی برای بررسی عمیق معماری پروتکل‌های نسل جدید VLESS Reality، تنظیمات فنی ضد اختلال برای اپراتورهای همراه اول و ایرانسل، و راهنمای جامع خرید اشتراک V2Ray تدوین گردیده است.
 
 [![Telegram Bot](https://img.shields.io/badge/ربات_دریافت_کانفیگ-@RoozanehNetBot-blue?style=for-the-badge&logo=telegram)](https://t.me/RoozanehNetBot)
-[![Support](https://img.shields.io/badge/پشتیبانی_۲۴_ساعته-فعال-brightgreen?style=for-the-badge)](https://t.me/RozanehaiSupportBot)
+[![Support](https://img.shields.io/badge/پشتیبانی_۲۴_ساعته-فعال-brightgreen?style=for-the-badge)](https://t.me/RoozanehHelp)
 
 ---
 
