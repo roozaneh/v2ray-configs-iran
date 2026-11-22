@@ -1,0 +1,5 @@
+*.secret.*
+HANDOFF.md
+FINANCIAL_REPORT.md
+.env
+
