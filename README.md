@@ -8,7 +8,7 @@
 > مجهز به هسته بهینه‌شده Xray و Sing-box، پروتکل‌های نسل سوم **VLESS XTLS Reality**، فناوری اختصاصی **فرگمنت پکت‌های TLS <bdi>(Packet Fragmentation)</bdi>** و روتینگ تفکیک‌شده برای دکل‌های **همراه اول <bdi>(MCI)</bdi>**، **ایرانسل <bdi>(Irancell)</bdi>**، **رایتل <bdi>(Rightel)</bdi>** و تمامی ارائه‌دهندگان اینترنت ثابت خانگی (مخابرات، شاتل، آسیاتک، زیتل و های‌وب).
 
 [![Live Website](https://img.shields.io/badge/🌐_مشاهده_وب‌سایت_رسمی-کلیک_کنید-059669?style=for-the-badge&logo=googlechrome&logoColor=white)](https://roozaneh.github.io/v2ray-configs-iran/)
-[![Telegram Bot](https://img.shields.io/badge/ربات_دریافت_کانفیگ_و_تست-@RoozanehNetBot-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RoozanehNetBot?start=gh_config)
+[![Telegram Bot](https://img.shields.io/badge/ربات_دریافت_کانفیگ_و_تست-@RoozanehNetBot-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/RoozanehNetBot?start=free_configs)
 [![Support](https://img.shields.io/badge/پشتیبانی_فنی-آنلاین-brightgreen?style=for-the-badge)](https://t.me/RoozanehHelp)
 [![Channel](https://img.shields.io/badge/کانال_روزنه_نت-@RoozanehNet-2CA5E0?style=for-the-badge&logo=telegram)](https://t.me/RoozanehNet)
 [![Uptime](https://img.shields.io/badge/پایداری_کانفیگ‌ها-۹۹.۹۸%25-orange?style=for-the-badge)]()
@@ -25,7 +25,7 @@
 ### ⚡ شروع سریع در ۳ مرحله ساده (اتصال زیر ۳۰ ثانیه):
 <kbd> ۱. دانلود کلاینت رسمی V2Ray </kbd> ➔ <kbd> ۲. دریافت ۲ تا ۳ گیگ تست رایگان </kbd> ➔ <kbd> ۳. کپی لینک هوشمند و اتصال </kbd>
 
-**[🎁 برای دریافت آنی ۲ الی ۳ گیگابایت کانفیگ تست رایگان روزنه نت اینجا کلیک کنید ←](https://t.me/RoozanehNetBot?start=gh_config)**
+**[🎁 برای دریافت آنی ۲ الی ۳ گیگابایت کانفیگ تست رایگان روزنه نت اینجا کلیک کنید ←](https://t.me/RoozanehNetBot?start=free_configs)**
 
 </div>
 
@@ -34,7 +34,7 @@
 > [!TIP]
 > 🎁 **تست رایگان پیش از خرید (۱۰۰٪ واقعی و بدون پرداخت هزینه):**  
 > برای اینکه پایداری خارق‌العاده و سرعت کانفیگ‌ها را روی اپراتور سیم‌کارت خود (همراه اول یا ایرانسل) شخصاً محک بزنید، همین حالا **۲ تا ۳ گیگابایت کانفیگ تست رایگان** با سرعت نامحدود دریافت کنید:  
-> 👉 **[ورود به ربات و دریافت کانفیگ تست رایگان (<bdi>@RoozanehNetBot</bdi>)](https://t.me/RoozanehNetBot?start=gh_config)**
+> 👉 **[ورود به ربات و دریافت کانفیگ تست رایگان (<bdi>@RoozanehNetBot</bdi>)](https://t.me/RoozanehNetBot?start=free_configs)**
 
 > [!NOTE]
 > 🔄 **قانون انحصاری «عدم سوختن حجم مشترکین» <bdi>(Data Rollover)</bdi>:**  
@@ -93,7 +93,7 @@
 
 > [!TIP]
 > 🎁 **دریافت کانفیگ تست رایگان:** بدون نیاز به وارد کردن کارت بانکی، همین حالا ۲ الی ۳ گیگ تست پرسرعت دریافت کنید:  
-> 👉 **[کلیک کنید: دریافت کانفیگ تست در ربات (<bdi>@RoozanehNetBot</bdi>)](https://t.me/RoozanehNetBot?start=gh_config)**  
+> 👉 **[کلیک کنید: دریافت کانفیگ تست در ربات (<bdi>@RoozanehNetBot</bdi>)](https://t.me/RoozanehNetBot?start=free_configs)**  
 > 📥 **دانلود کلاینت اتصال:** [مخزن دانلود v2rayNG و Streisand را از اینجا ببینید](https://github.com/roozaneh/v2ray-clients-download)
 
 ---
@@ -110,7 +110,7 @@
 | 🟣 | **بسته حرفه‌ای <bdi>VIP (Pro)</bdi>** | **۷۵ گیگابایت** | ۱ ماهه (۳۰ روز) | **۳۹۵,۰۰۰** | حداکثر پهنای باند اختصاصی، پینگ پایدار گیمینگ و تریدرها |
 | 👑 | **بسته ویژه سه ماهه <bdi>(Custom)</bdi>** | **۱۵۰ گیگابایت** | ۳ ماهه (۹۰ روز) | **۸۹۰,۰۰۰** | اقتصادی‌ترین هزینه به ازای هر گیگ، بدون دغدغه تمدید ماهانه |
 
-> 🛒 **خرید آنی:** جهت ثبت سفارش و دریافت فوری اشتراک، همین حالا به **[ربات تلگرام روزنه نت (<bdi>@RoozanehNetBot</bdi>)](https://t.me/RoozanehNetBot?start=gh_config)** مراجعه فرمایید.
+> 🛒 **خرید آنی:** جهت ثبت سفارش و دریافت فوری اشتراک، همین حالا به **[ربات تلگرام روزنه نت (<bdi>@RoozanehNetBot</bdi>)](https://t.me/RoozanehNetBot?start=free_configs)** مراجعه فرمایید.
 
 ---
 
@@ -138,7 +138,7 @@
 
 > [!TIP]
 > 🎁 **تست سرعت روی سیم‌کارت خودتان:** همین حالا تست ۲ الی ۳ گیگابایت را به رایگان فعال کنید:  
-> 👉 **[ورود به ربات تلگرام روزنه نت (<bdi>@RoozanehNetBot</bdi>)](https://t.me/RoozanehNetBot?start=gh_config)**  
+> 👉 **[ورود به ربات تلگرام روزنه نت (<bdi>@RoozanehNetBot</bdi>)](https://t.me/RoozanehNetBot?start=free_configs)**  
 > 🛡️ **نیاز به تانل اینترنت ملی دارید؟** [مخزن فیلترشکن نت ملی روزنه نت را مشاهده فرمایید](https://github.com/roozaneh/iran-tunnel-v2ray-netmeli)
 
 ---
@@ -147,7 +147,7 @@
 
 ### ۱. اتصال در گوشی‌های اندروید (با برنامه v2rayNG):
 1. نرم‌افزار **v2rayNG** را نصب کنید ([دانلود مستقیم](https://github.com/roozaneh/v2ray-clients-download#-آموزش-اتصال-در-اندروید-v2rayng)).
-2. وارد **[ربات تلگرام روزنه نت](https://t.me/RoozanehNetBot?start=gh_config)** شوید و کانفیگ تست یا اشتراک خود را کپی کنید.
+2. وارد **[ربات تلگرام روزنه نت](https://t.me/RoozanehNetBot?start=free_configs)** شوید و کانفیگ تست یا اشتراک خود را کپی کنید.
 3. در برنامه v2rayNG علامت **+** را لمس کرده و گزینه **Import config from Clipboard** را انتخاب کنید.
 4. دکمه اتصال (دایره پایین صفحه) را لمس فرمایید تا آیکون VPN بالای صفحه روشن شود.
 
@@ -201,14 +201,14 @@
 
 <details>
 <summary><b>۴. چطور می‌توانم قبل از خرید، کانفیگ‌ها را تست کنم؟</b></summary>
-کافیست وارد [ربات تلگرام روزنه نت (<bdi>@RoozanehNetBot</bdi>)](https://t.me/RoozanehNetBot?start=gh_config) شوید و با زدن دکمه تست رایگان، ۲ الی ۳ گیگابایت ترافیک هدیه با پایداری کامل دریافت فرمایید.
+کافیست وارد [ربات تلگرام روزنه نت (<bdi>@RoozanehNetBot</bdi>)](https://t.me/RoozanehNetBot?start=free_configs) شوید و با زدن دکمه تست رایگان، ۲ الی ۳ گیگابایت ترافیک هدیه با پایداری کامل دریافت فرمایید.
 </details>
 
 ---
 
 ## 📞 راه‌های ارتباطی پایدار
 
-* 🤖 **ربات رسمی خرید و دریافت کانفیگ تست:** [<bdi>@RoozanehNetBot</bdi>](https://t.me/RoozanehNetBot?start=gh_config)
+* 🤖 **ربات رسمی خرید و دریافت کانفیگ تست:** [<bdi>@RoozanehNetBot</bdi>](https://t.me/RoozanehNetBot?start=free_configs)
 * 📢 **کانال اطلاع‌رسانی و وضعیت سرورها:** [<bdi>@RoozanehNet</bdi>](https://t.me/RoozanehNet)
 * 💬 **پشتیبانی فنی و استعلام سازگاری اپراتور:** [<bdi>@RoozanehHelp</bdi>](https://t.me/RoozanehHelp)
 * 🌐 **پرتال رسمی در گیت‌هاب پیج:** [roozaneh.github.io/v2ray-configs-iran](https://roozaneh.github.io/v2ray-configs-iran/)
