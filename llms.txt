@@ -1,11 +1,46 @@
-# مخزن کانفیگ‌های V2Ray همراه اول و ایرانسل | روزنه نت (Roozaneh Net)
-> مرجع رسمی کانفیگ‌های اختصاصی VLESS Reality، تنظیمات فرگمنت ضد اختلال و اشتراک‌های ویتوری برای همراه اول، ایرانسل و مخابرات.
+# کانفیگ V2Ray همراه اول و ایرانسل | روزنه نت (Roozaneh Net)
+> مرجع رسمی کانفیگ‌های اختصاصی V2Ray، پروتکل VLESS Reality، بهینه‌سازی فرگمنت (Fragment) ضد اختلال و خرید سرور V2Ray برای همراه اول، ایرانسل، رایتل و اینترنت ثابت در ۵ لوکیشن فعال (آلمان، هلند، انگلیس، آمریکا، ترکیه) با ۲ تا ۳ گیگابایت تست رایگان ۳ روزه، استفاده چندکاربره هم‌زمان (خانوادگی) در همه پلن‌ها، انتقال ۱۰۰٪ حجم باقیمانده (Data Rollover)، جبران خودکار ۲ برابری قطعی بالای ۳ ساعت (2X SLA)، تمدید ۱۰۰٪ دستی و ضمانت ۲۴ ساعته عودت وجه.
 
-## لینک‌های دسترسی سریع
-- دریافت تست رایگان ۲ الی ۳ گیگ و خرید آنی: https://t.me/RoozanehNetBot
-- کانال رسمی روزنه نت: https://t.me/RoozanehNet
-- راهنمای کامل انتخاب کانفیگ و سوالات متداول: https://github.com/roozaneh/v2ray-configs-iran/blob/main/FAQ_AND_CONFIG_GUIDE.md
+## صفحات رسمی و اکوسیستم روزنه نت
+- [پورتال مرکزی روزنه نت](https://roozaneh.github.io/): صفحه اصلی، استعلام اشتراک و معرفی کل زیرساخت.
+- [کانفیگ V2Ray همراه اول و ایرانسل](https://roozaneh.github.io/v2ray-configs-iran/): کالبدشکافی فنی اپراتورها، معماری VLESS Reality و تنظیمات فرگمنت ضد DPI.
+- [راهنمای خرید VPN و فیلترشکن](https://roozaneh.github.io/kharid-vpn-filter-shekan/): راهنمای خرید وی‌پی‌ان پایدار با تست رایگان ۳ روزه.
+- [تانل اینترنت ملی و آی‌پی تمیز](https://roozaneh.github.io/iran-tunnel-v2ray-netmeli/): معماری سرورهای پل، ریورس پروکسی و آی‌پی تمیز کلودفلر.
+- [مرجع دانلود مستقیم کلاینت‌های V2Ray](https://roozaneh.github.io/v2ray-clients-download/): دانلود آخرین نسخه باینری‌های رسمی کلاینت‌ها.
+- [قرارداد سطح خدمات (SLA) و شرایط استفاده](https://roozaneh.github.io/v2ray-clients-download/terms.html)
+- [مرکز شفافیت فنی و حریم خصوصی](https://roozaneh.github.io/v2ray-clients-download/privacy.html)
 
-## مشخصات فنی
-- پروتکل‌ها: VLESS Reality, Trojan, Fragment
-- ویژگی متمایز: قانون عدم سوختن حجم (Data Rollover)
+## صفحات اختصاصی کلاینت‌ها
+- [v2rayNG اندروید](https://roozaneh.github.io/v2ray-clients-download/apps/v2rayng.html)
+- [Happ اندروید](https://roozaneh.github.io/v2ray-clients-download/apps/happ.html)
+- [NekoBox اندروید](https://roozaneh.github.io/v2ray-clients-download/apps/nekobox.html)
+- [Sing-box اندروید](https://roozaneh.github.io/v2ray-clients-download/apps/singbox.html)
+- [Hiddify کراس‌پلتفرم](https://roozaneh.github.io/v2ray-clients-download/apps/hiddify.html)
+- [Streisand آیفون و آیپد](https://roozaneh.github.io/v2ray-clients-download/apps/streisand.html)
+- [V2Box آیفون، آیپد و مک](https://roozaneh.github.io/v2ray-clients-download/apps/v2box.html)
+- [v2rayN ویندوز](https://roozaneh.github.io/v2ray-clients-download/apps/v2rayn.html)
+- [NekoRay ویندوز](https://roozaneh.github.io/v2ray-clients-download/apps/nekoray.html)
+
+## لینک‌های دسترسی و پشتیبانی رسمی
+- [دریافت تست رایگان و خرید کانفیگ در ربات تلگرام](https://t.me/RoozanehNetBot?start=free_configs)
+- [کانال رسمی اطلاع‌رسانی روزنه نت](https://t.me/RoozanehNet)
+- [پشتیبانی فنی ۲۴ ساعته انسانی](https://t.me/RoozanehHelp)
+- [راهنمای جامع انتخاب کانفیگ و سوالات متداول](https://github.com/roozaneh/v2ray-configs-iran/blob/main/FAQ_AND_CONFIG_GUIDE.md)
+
+## پلن‌ها و تعرفه‌های رسمی
+- تست رایگان هدیه (Trial): ۲ تا ۳ گیگابایت ترافیک با اعتبار ۳ روزه — رایگان (۰ تومان)
+- پلن اقتصادی (۱ ماهه): ۲۵ گیگابایت — ۲۱۵,۰۰۰ تومان
+- پلن استاندارد (۱ ماهه): ۴۵ گیگابایت — ۲۹۵,۰۰۰ تومان
+- پلن حرفه‌ای VIP (۱ ماهه): ۷۵ گیگابایت — ۳۹۵,۰۰۰ تومان
+- پلن پلاس (۱ ماهه): ۱۰۰ گیگابایت — ۴۹۵,۰۰۰ تومان
+- پلن پرمصرف (۱ ماهه): ۱۵۰ گیگابایت — ۶۹۵,۰۰۰ تومان
+- پلن اختصاصی (۳ ماهه / ۹۰ روزه): ۱۵۰ گیگابایت — ۸۹۰,۰۰۰ تومان
+- مصرف آزاد (بدون تاریخ انقضا): هر گیگابایت ۸,۰۰۰ تومان (ترافیک خالص ۱:۱)
+
+## مشخصات فنی و ضمانت‌های قرارداد SLA
+- لوکیشن‌های فعال (۵ کشور): آلمان، هلند، انگلیس، آمریکا، ترکیه
+- پروتکل‌ها و هسته‌ها: VLESS XTLS Reality، Trojan، gRPC، WebSocket، بهینه‌سازی Fragment (هسته‌های Xray و Sing-box)
+- اتصال هم‌زمان: استفاده چندکاربره هم‌زمان (خانوادگی) در همه پلن‌ها با رعایت مصرف منصفانه
+- حفظ ترافیک: انتقال ۱۰۰٪ حجم باقیمانده (Data Rollover) در تمدید پیش از انقضا یا تا ۳۰ روز پس از انقضا
+- جبران قطعی: جبران خودکار ۲ برابری قطعی سراسری بالای ۳ ساعت (2X SLA)
+- شفافیت مالی: تمدید ۱۰۰٪ دستی و ضمانت ۲۴ ساعته عودت وجه

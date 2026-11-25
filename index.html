@@ -1,740 +1,935 @@
 <!DOCTYPE html>
-<html lang="fa" dir="rtl" class="scroll-smooth">
+<html lang="fa" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>خرید کانفیگ اختصاصی V2Ray همراه اول و ایرانسل | روزنه نت (Roozaneh Net)</title>
-  <meta name="description" content="خرید کانفیگ اختصاصی V2Ray ویتوری با پروتکل VLESS Reality و فرگمنت ضد DPI. پرسرعت‌ترین و پایدارترین سرورها برای همراه اول، ایرانسل و اینترنت ثابت خانگی با ۲ تا ۳ گیگ تست رایگان.">
-  <meta name="keywords" content="خرید کانفیگ v2ray, کانفیگ همراه اول, کانفیگ ایرانسل, کانفیگ vless reality, خرید فیلترشکن v2rayng, خرید سرور v2ray, تست رایگان v2ray, روزنه نت">
-  
+  <title>خرید کانفیگ V2Ray همراه اول و ایرانسل و خرید سرور | روزنه نت</title>
+  <meta name="description" content="خرید کانفیگ V2Ray همراه اول و ایرانسل با پروتکل VLESS Reality و فرگمنت در ۵ لوکیشن فعال؛ استفاده چندکاربره، تست رایگان ۳ روزه و ضمانت عودت وجه در روزنه نت.">
+  <meta name="keywords" content="کانفیگ v2ray, خرید کانفیگ, کانفیگ همراه اول, کانفیگ ایرانسل, خرید سرور v2ray, کانفیگ v2ray نامحدود, vless reality, فرگمنت, روزنه نت">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://roozaneh.github.io/v2ray-configs-iran/">
+
+  <!-- Favicons & Brand Icons -->
+  <link rel="icon" href="assets/brand/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/brand/favicon.svg" type="image/svg+xml">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/brand/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/brand/favicon-16.png">
+  <link rel="apple-touch-icon" href="assets/brand/apple-touch-icon.png">
+
   <!-- Open Graph -->
-  <meta property="og:title" content="خرید کانفیگ اختصاصی V2Ray همراه اول و ایرانسل | روزنه نت">
-  <meta property="og:description" content="سرورهای اختصاصی ضد فیلتر و بدون قطعی V2Ray، مجهز به فرگمنت TLS و پینگ زیر ۸۰ میلی‌ثانیه + ۲ تا ۳ گیگابایت تست رایگان فوری.">
-  <meta property="og:url" content="https://roozaneh.github.io/v2ray-configs-iran/">
   <meta property="og:type" content="website">
-  
-  <!-- Google Fonts: Vazirmatn -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-  
-  <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Vazirmatn', 'sans-serif'],
-          },
-          colors: {
-            emerald: {
-              400: '#34d399',
-              500: '#10b981',
-              600: '#059669',
-              700: '#047857',
-            },
-            slate: {
-              850: '#151f32',
-              900: '#0f172a',
-              950: '#020617',
-            }
-          }
-        }
-      }
-    }
-  </script>
+  <meta property="og:title" content="خرید کانفیگ V2Ray همراه اول و ایرانسل و خرید سرور | روزنه نت">
+  <meta property="og:description" content="کانفیگ V2Ray اختصاصی با پروتکل VLESS Reality و بهینه‌سازی Fragment در ۵ لوکیشن فعال، تست رایگان ۳ روزه (۲ تا ۳ گیگابایت) و انتقال ۱۰۰٪ حجم.">
+  <meta property="og:url" content="https://roozaneh.github.io/v2ray-configs-iran/">
+  <meta property="og:image" content="https://roozaneh.github.io/og.png">
+  <meta property="og:locale" content="fa_IR">
+  <meta property="og:site_name" content="روزنه نت | Roozaneh Net">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="خرید کانفیگ V2Ray همراه اول و ایرانسل | روزنه نت">
+  <meta name="twitter:description" content="کانفیگ اختصاصی V2Ray برای همراه اول و ایرانسل در ۵ لوکیشن فعال با تست رایگان ۳ روزه و جبران خودکار 2X SLA.">
+  <meta name="twitter:image" content="https://roozaneh.github.io/og.png">
+  <meta name="twitter:site" content="@RoozanehNet">
+
+  <!-- Unified Apple-Minimalist Design System (Self-Hosted) -->
+  <link rel="stylesheet" href="assets/css/apple-ui.css">
+
   <style>
-    body {
-      font-family: 'Vazirmatn', sans-serif;
+    .tab-panel[hidden] { display: none !important; }
+    .faq-chevron {
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+      color: var(--ink-muted);
+      transition: transform 0.2s ease;
     }
-    .glass-card {
-      background: rgba(15, 23, 42, 0.75);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
-      border: 1px solid rgba(255, 255, 255, 0.08);
+    details[open] .faq-chevron {
+      transform: rotate(180deg);
+      color: var(--accent);
     }
-    .glass-card-hover {
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    .spec-list {
+      list-style: none;
+      padding: 0;
+      margin: 16px 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 13.5px;
     }
-    .glass-card-hover:hover {
-      border-color: rgba(16, 185, 129, 0.4);
-      transform: translateY(-4px);
-      box-shadow: 0 20px 30px -10px rgba(5, 150, 105, 0.15);
+    .spec-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border-subtle);
     }
-    .emerald-glow {
-      box-shadow: 0 0 25px rgba(16, 185, 129, 0.25);
+    .spec-row:last-child {
+      padding-bottom: 0;
+      border-bottom: none;
     }
-    .emerald-glow:hover {
-      box-shadow: 0 0 35px rgba(16, 185, 129, 0.4);
+    .spec-label {
+      color: var(--ink-secondary);
     }
-    details summary::-webkit-details-marker {
-      display:none;
+    .spec-val {
+      font-weight: 600;
+      color: var(--ink-primary);
+      text-align: left;
+    }
+    .location-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .location-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      border-radius: var(--radius-pill);
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-hairline);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--ink-primary);
+    }
+    .card-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 18px;
     }
   </style>
-    <!-- Microsoft Clarity Tracking -->
-    <script type=text/javascript>
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "zip7qlr39v");
-    </script>
+
+  <!-- Structured Data: Organization + SoftwareApplication + FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "name": "روزنه نت (Roozaneh Net)",
+        "url": "https://roozaneh.github.io/",
+        "logo": "https://roozaneh.github.io/v2ray-configs-iran/assets/brand/logo-rail.svg",
+        "sameAs": [
+          "https://t.me/RoozanehNet",
+          "https://t.me/RoozanehHelp",
+          "https://x.com/RoozanehNet",
+          "https://github.com/roozaneh"
+        ]
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "سرویس کانفیگ V2Ray روزنه نت (VLESS Reality & Fragment)",
+        "applicationCategory": "NetworkingApplication",
+        "operatingSystem": "Android, iOS, Windows, macOS",
+        "url": "https://roozaneh.github.io/v2ray-configs-iran/",
+        "description": "کانفیگ اختصاصی V2Ray و سرور VLESS Reality با بهینه‌سازی Fragment برای همراه اول، ایرانسل، رایتل و اینترنت ثابت در ۵ لوکیشن فعال (آلمان، هلند، انگلیس، آمریکا، ترکیه).",
+        "offers": {
+          "@type": "AggregateOffer",
+          "priceCurrency": "IRR",
+          "lowPrice": "0",
+          "highPrice": "8900000",
+          "offerCount": "8"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "آیا کانفیگ‌های V2Ray روزنه نت روی همراه اول و ایرانسل به طور هم‌زمان کار می‌کنند؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "بله. لینک اشتراک هوشمند روزنه نت شامل نودهای تفکیک‌شده برای همراه اول (VLESS Reality و Fragment)، ایرانسل (VLESS WS و gRPC با Clean IP)، رایتل و اینترنت ثابت مخابرات است."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "سرورهای روزنه نت در کدام لوکیشن‌ها فعال هستند؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "در حال حاضر ۵ لوکیشن فعال شامل آلمان، هلند، انگلیس، آمریکا و ترکیه در تمامی پلن‌ها با آی‌پی تمیز و پورت‌های پرسرعت در دسترس است."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "تست رایگان و ضمانت عودت وجه چگونه ارائه می‌شود؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "پیش از خرید می‌توانید ۲ تا ۳ گیگابایت کانفیگ تست رایگان با اعتبار ۳ روزه از ربات تلگرام @RoozanehNetBot دریافت کنید. پس از خرید نیز ضمانت ۲۴ ساعته عودت وجه برقرار است."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "آیا امکان استفاده چندکاربره هم‌زمان در همه پلن‌ها وجود دارد؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "بله. تمامی پلن‌های روزنه نت از استفاده چندکاربره هم‌زمان (خانوادگی) روی گوشی، تبلت و رایانه بدون محدودیت مصنوعی تعداد دستگاه و بدون سقف سرعت پشتیبانی می‌کنند."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "قانون عدم سوختن حجم (Data Rollover) و تمدید دستی چگونه کار می‌کند؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "تمدید در روزنه نت ۱۰۰٪ دستی است و هیچ کسر وجه خودکاری انجام نمی‌شود. در صورت تمدید پیش از پایان اشتراک یا تا ۳۰ روز پس از انقضا، ۱۰۰٪ حجم باقیمانده به دوره جدید منتقل می‌شود."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "جبران خودکار 2X SLA چیست؟",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "در صورت بروز قطعی سراسری تاییدشده بیش از ۳ ساعت، سامانه پایش به طور خودکار تا دو برابر مدت اختلال را به اعتبار زمانی تمام مشترکین فعال اضافه می‌کند."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <!-- GoatCounter Analytics -->
+  <script data-goatcounter="https://roozaneh.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <!-- Microsoft Clarity Tracking -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "zip7qlr39v");
+  </script>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen selection:bg-emerald-500 selection:text-slate-950 overflow-x-hidden">
+<body>
 
-  <!-- Ambient Glow Background -->
-  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
-    <div class="absolute -top-40 right-1/4 w-96 h-96 bg-emerald-600/15 rounded-full blur-3xl"></div>
-    <div class="absolute top-1/2 left-10 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl"></div>
-    <div class="absolute bottom-10 right-10 w-96 h-96 bg-slate-800/20 rounded-full blur-3xl"></div>
-  </div>
-
-  <!-- Header / Navigation -->
-  <header class="sticky top-0 z-50 glass-card border-b border-slate-800/80">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-      <!-- Logo -->
-      <a href="https://roozaneh.github.io/" class="flex items-center gap-3 group">
-        <div class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-emerald-600 to-emerald-400 flex items-center justify-center text-slate-950 font-black text-xl shadow-lg shadow-emerald-500/20 group-hover:scale-105 transition-transform">
-          ⚡
-        </div>
-        <div>
-          <span class="text-xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-100 to-emerald-400 bg-clip-text text-transparent">روزنه نت</span>
-          <span class="text-xs block text-emerald-400 font-medium">Roozaneh Network</span>
-        </div>
+  <!-- Sticky Frosted Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-link">
+        <img src="assets/brand/logo-rail.svg" alt="لوگوی روزنه نت" class="brand-logo" width="32" height="32">
+        <span class="brand-meta">
+          <span class="brand-name">روزنه نت</span>
+          <span class="brand-sub"><bdi>Roozaneh Net</bdi></span>
+        </span>
       </a>
 
-      <!-- Desktop Nav -->
-      <nav class="hidden md:flex items-center gap-1 bg-slate-900/60 p-1.5 rounded-full border border-slate-800">
-        <a href="#operators" class="px-4 py-2 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 rounded-full transition-colors">کالبدشکافی اپراتورها</a>
-        <a href="#pricing" class="px-4 py-2 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 rounded-full transition-colors">بسته‌ها و تعرفه</a>
-        <a href="#downloads" class="px-4 py-2 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 rounded-full transition-colors">دانلود نرم‌افزار</a>
-        <a href="#faq" class="px-4 py-2 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/60 rounded-full transition-colors">سوالات متداول</a>
+      <nav class="nav-links" aria-label="منوی اصلی">
+        <a href="#operators" class="nav-link">اپراتورها</a>
+        <a href="#architecture" class="nav-link">معماری و فرگمنت</a>
+        <a href="#pricing" class="nav-link">تعرفه‌ها</a>
+        <a href="#clients" class="nav-link">اپلیکیشن‌ها</a>
+        <a href="#faq" class="nav-link">سوالات متداول</a>
       </nav>
 
-      <!-- CTA Button -->
-      <div class="flex items-center gap-3">
-        <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="emerald-glow inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-sm transition-all transform hover:-translate-y-0.5">
-          <span>🎁 تست رایگان ۲ تا ۳ گیگ</span>
-        </a>
+      <div class="header-actions">
+        <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">تست رایگان ۳ روزه</a>
+        <button type="button" id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="باز کردن منو" aria-expanded="false" aria-controls="mobile-nav">☰</button>
+      </div>
+    </div>
+
+    <div id="mobile-nav" class="mobile-nav">
+      <div class="mobile-nav-list">
+        <a href="#operators" class="mobile-nav-link">کالبدشکافی اپراتورها</a>
+        <a href="#architecture" class="mobile-nav-link">معماری <bdi>Reality</bdi> و فرگمنت</a>
+        <a href="#pricing" class="mobile-nav-link">تعرفه‌ها و خرید کانفیگ</a>
+        <a href="#clients" class="mobile-nav-link">دانلود اپلیکیشن‌ها</a>
+        <a href="#faq" class="mobile-nav-link">سوالات متداول</a>
       </div>
     </div>
   </header>
 
-  <!-- Hero Section -->
-  <section class="relative z-10 pt-16 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
-    <!-- Top Pill Badge -->
-    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-950/70 border border-emerald-500/30 text-emerald-300 text-xs sm:text-sm font-medium mb-8">
-      <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-      <span>مجهز به هسته اختصاصی Xray و Sing-box نسل ۲۰۲۶</span>
-    </div>
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="eyebrow-pill">هسته <bdi>Xray</bdi> و <bdi>Sing-box</bdi> • ۵ لوکیشن فعال</div>
 
-    <!-- Main Headline -->
-    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight sm:leading-tight mb-6">
-      کانفیگ اختصاصی <span class="bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">V2Ray روزنه نت</span><br>
-      پایدار روی همراه اول و ایرانسل
-    </h1>
+        <h1 class="hero-title">
+          خرید کانفیگ <bdi>V2Ray</bdi> پایدار برای همراه اول و ایرانسل
+        </h1>
 
-    <!-- Subtitle -->
-    <p class="max-w-3xl mx-auto text-slate-400 text-base sm:text-lg lg:text-xl font-normal leading-relaxed mb-10">
-      پایان قطعی‌های پی‌درپی و کندی در ساعات شلوغی شبانه. بهره‌گیری از فناوری انحصاری 
-      <strong class="text-slate-200">فرگمنت پکت‌های TLS (Fragment)</strong>، پروتکل ضد فیلترینگ <strong class="text-slate-200">VLESS XTLS Reality</strong> و روتینگ تفکیک‌شده برای دکل‌های مخابراتی ایران با پینگ زیر ۸۰ میلی‌ثانیه.
-    </p>
+        <p class="hero-subtitle">
+          زیرساخت مهندسی‌شده روزنه نت (<bdi>Roozaneh Net</bdi>) با پروتکل <bdi>VLESS XTLS Reality</bdi>، بهینه‌سازی بسته‌های <bdi>TLS Fragment</bdi> و پورت‌های پرسرعت ۱۰ گیگابیت، اتصال پایدار با سرعت بدون سقف (<bdi>کانفیگ V2Ray نامحدود</bdi> در سرعت و تعداد دستگاه هم‌زمان) را برای خرید سرور <bdi>V2Ray</bdi> و عبور از محدودیت‌های شبکه فراهم می‌کند.
+        </p>
 
-    <!-- CTAs -->
-    <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-xl mx-auto mb-14">
-      <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="emerald-glow w-full sm:w-auto px-8 py-4 rounded-2xl bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-400 hover:to-emerald-500 text-slate-950 font-black text-base flex items-center justify-center gap-2 transition-all transform hover:-translate-y-1">
-        <span>🎁 دریافت فوری ۲ الی ۳ گیگ تست رایگان</span>
-      </a>
-      <a href="#pricing" class="w-full sm:w-auto px-7 py-4 rounded-2xl glass-card hover:bg-slate-800 text-slate-200 font-bold text-base flex items-center justify-center gap-2 border border-slate-700/80 transition-all">
-        <span>🛒 مشاهده تعرفه‌ها و خرید اشتراک</span>
-      </a>
-    </div>
+        <div class="hero-actions">
+          <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+            دریافت ۲ تا ۳ گیگ تست رایگان (۳ روزه)
+          </a>
+          <a href="#pricing" class="btn btn-secondary btn-lg">
+            مشاهده تعرفه‌ها و خرید کانفیگ
+          </a>
+        </div>
 
-    <!-- Feature Stat Pills -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto text-right">
-      <div class="glass-card p-4 rounded-2xl border border-slate-800/80">
-        <div class="text-emerald-400 font-extrabold text-2xl mb-1">۹۹.۹۸٪</div>
-        <div class="text-xs text-slate-400 font-medium">پایداری تضمینی شبکه (Uptime)</div>
-      </div>
-      <div class="glass-card p-4 rounded-2xl border border-slate-800/80">
-        <div class="text-emerald-400 font-extrabold text-2xl mb-1">ترافیک Rollover</div>
-        <div class="text-xs text-slate-400 font-medium">حجم مصرف‌نشده نمی‌سوزد</div>
-      </div>
-      <div class="glass-card p-4 rounded-2xl border border-slate-800/80">
-        <div class="text-emerald-400 font-extrabold text-2xl mb-1">۱۰ گیگابیت</div>
-        <div class="text-xs text-slate-400 font-medium">پورت اختصاصی آمستردام و فرانکفورت</div>
-      </div>
-      <div class="glass-card p-4 rounded-2xl border border-slate-800/80">
-        <div class="text-emerald-400 font-extrabold text-2xl mb-1">Strict Zero-Logs</div>
-        <div class="text-xs text-slate-400 font-medium">عدم ذخیره هویت و تاریخچه اتصال</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Section: Operator Comparison Cards (3 Columns) -->
-  <section id="operators" class="relative z-10 py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-    <div class="text-center max-w-3xl mx-auto mb-14">
-      <span class="text-emerald-400 text-sm font-bold tracking-wider uppercase mb-2 block">سازگاری ۱۰۰٪ با اپراتورها</span>
-      <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight mb-4">
-        کالبدشکافی عملکرد کانفیگ‌ها در اپراتورهای ایران
-      </h2>
-      <p class="text-slate-400 text-sm sm:text-base leading-relaxed">
-        به دلیل تفاوت‌های اساسی در سیستم فیلترینگ و بازرسی عمیق بسته‌ها (DPI) در دکل‌های ایران، کانفیگ‌های روزنه نت با روتینگ تفکیک‌شده و اختصاصی ارائه می‌گردند.
-      </p>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      
-      <!-- Card 1: MCI -->
-      <div class="glass-card glass-card-hover rounded-3xl p-7 flex flex-col justify-between border-slate-800/80 relative overflow-hidden group">
-        <div class="absolute top-0 right-0 left-0 h-1.5 bg-gradient-to-r from-blue-500 to-cyan-400"></div>
-        <div>
-          <div class="flex items-center justify-between mb-5">
-            <span class="px-3 py-1 rounded-full text-xs font-bold bg-blue-500/20 text-blue-300 border border-blue-500/30">همراه اول (MCI)</span>
-            <span class="flex items-center gap-1.5 text-xs text-emerald-400 font-semibold">
-              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-              پایدار و متصل
-            </span>
+        <div class="hero-trust-strip">
+          <div class="trust-stat">
+            <div class="trust-stat-val">۵ لوکیشن فعال</div>
+            <div class="trust-stat-label">آلمان، هلند، انگلیس، آمریکا، ترکیه</div>
           </div>
+          <div class="trust-stat">
+            <div class="trust-stat-val">انتقال ۱۰۰٪ حجم</div>
+            <div class="trust-stat-label">قانون <bdi>Data Rollover</bdi> در تمدید</div>
+          </div>
+          <div class="trust-stat">
+            <div class="trust-stat-val">جبران <bdi>2X SLA</bdi></div>
+            <div class="trust-stat-label">دو برابر قطعی سراسری بالای ۳ ساعت</div>
+          </div>
+          <div class="trust-stat">
+            <div class="trust-stat-val">تمدید ۱۰۰٪ دستی</div>
+            <div class="trust-stat-label">با ضمانت ۲۴ ساعته عودت وجه</div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <h3 class="text-xl font-extrabold text-white mb-2">کانفیگ ویژه همراه اول</h3>
-          <p class="text-xs text-slate-400 leading-relaxed mb-6">
-            مقاوم در برابر مسدودسازی شدید پورت‌ها و فیلترینگ تهاجمی هدرهای TLS اپراتور اول کشور.
+    <!-- Operator Breakdown & Comparison Table -->
+    <section id="operators" class="section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">سازگاری مهندسی‌شده با شبکه‌های ایران</span>
+          <h2 class="section-title">کالبدشکافی کانفیگ <bdi>V2Ray</bdi> در اپراتورهای ایران</h2>
+          <p class="section-desc">
+            الگوی بازرسی عمیق بسته‌ها (<bdi>DPI</bdi>) در همراه اول، ایرانسل، رایتل و مخابرات متفاوت است. اشتراک هوشمند روزنه نت مسیر هر اپراتور را به‌صورت مجزا بهینه‌سازی می‌کند.
           </p>
-
-          <div class="space-y-3 mb-6">
-            <div class="flex items-center justify-between text-xs py-2 border-b border-slate-800">
-              <span class="text-slate-400">پروتکل فعال:</span>
-              <span class="text-slate-200 font-mono font-semibold">VLESS XTLS Reality (Port 443)</span>
-            </div>
-            <div class="flex items-center justify-between text-xs py-2 border-b border-slate-800">
-              <span class="text-slate-400">تکنولوژی ضد فیلتر:</span>
-              <span class="text-emerald-400 font-semibold">TLS Packet Fragmentation</span>
-            </div>
-            <div class="flex items-center justify-between text-xs py-2 border-b border-slate-800">
-              <span class="text-slate-400">استتار SNI:</span>
-              <span class="text-slate-200 font-mono">Microsoft / Cloudflare</span>
-            </div>
-            <div class="flex items-center justify-between text-xs py-2">
-              <span class="text-slate-400">میانگین پینگ:</span>
-              <span class="text-emerald-400 font-bold font-mono">۷۰ ~ ۷۸ ms</span>
-            </div>
-          </div>
         </div>
 
-        <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="w-full py-3 rounded-xl bg-blue-600/20 hover:bg-blue-600/30 border border-blue-500/30 text-blue-300 font-bold text-xs flex items-center justify-center gap-1.5 transition-colors">
-          <span>دریافت کانفیگ تست همراه اول</span>
-          <span>←</span>
-        </a>
+        <div class="bento-grid bento-grid--3 mb-6">
+          <!-- Card 1: MCI -->
+          <article class="apple-card">
+            <div class="flex items-center justify-between mb-4">
+              <span class="eyebrow-pill" style="margin-bottom:0;">همراه اول (<bdi>MCI</bdi>)</span>
+              <span class="status-pill status-pill--ok">بهینه و متصل</span>
+            </div>
+            <h3 class="apple-card-title">کانفیگ همراه اول</h3>
+            <p class="apple-card-desc">
+              پیکربندی اختصاصی برای عبور از فیلترینگ لایه هفتم و بازرسی دقیق هدرهای <bdi>TLS</bdi> در شبکه همراه اول.
+            </p>
+            <ul class="spec-list">
+              <li class="spec-row">
+                <span class="spec-label">پروتکل اصلی</span>
+                <span class="spec-val"><bdi>VLESS XTLS Reality</bdi></span>
+              </li>
+              <li class="spec-row">
+                <span class="spec-label">ضد اختلال</span>
+                <span class="spec-val"><bdi>TLS Packet Fragment</bdi></span>
+              </li>
+              <li class="spec-row">
+                <span class="spec-label">استتار <bdi>SNI</bdi></span>
+                <span class="spec-val"><bdi>Microsoft / Cloudflare</bdi></span>
+              </li>
+              <li class="spec-row">
+                <span class="spec-label">میانگین پینگ</span>
+                <span class="spec-val"><bdi>70–78 ms</bdi></span>
+              </li>
+            </ul>
+            <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">
+              دریافت کانفیگ تست همراه اول
+            </a>
+          </article>
+
+          <!-- Card 2: Irancell -->
+          <article class="apple-card">
+            <div class="flex items-center justify-between mb-4">
+              <span class="eyebrow-pill" style="margin-bottom:0;">ایرانسل (<bdi>Irancell</bdi>)</span>
+              <span class="status-pill status-pill--ok">بهینه و متصل</span>
+            </div>
+            <h3 class="apple-card-title">کانفیگ ایرانسل</h3>
+            <p class="apple-card-desc">
+              مقاوم در برابر افت بسته (<bdi>Packet Drop</bdi>) و محدودسازی عمدی پهنای باند (<bdi>Throttling</bdi>) در ساعات اوج مصرف ایرانسل.
+            </p>
+            <ul class="spec-list">
+              <li class="spec-row">
+                <span class="spec-label">پروتکل اصلی</span>
+                <span class="spec-val"><bdi>VLESS WS + Clean IP</bdi></span>
+              </li>
+              <li class="spec-row">
+                <span class="spec-label">پایش آی‌پی</span>
+                <span class="spec-val">اسکن خودکار هر ۶ ساعت</span>
+              </li>
+              <li class="spec-row">
+                <span class="spec-label">پروتکل جایگزین</span>
+                <span class="spec-val"><bdi>Trojan gRPC TLS</bdi></span>
+              </li>
+              <li class="spec-row">
+                <span class="spec-label">میانگین پینگ</span>
+                <span class="spec-val"><bdi>62–72 ms</bdi></span>
+              </li>
+            </ul>
+            <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">
+              دریافت کانفیگ تست ایرانسل
+            </a>
+          </article>
+
+          <!-- Card 3: Rightel & Fixed Broadband -->
+          <article class="apple-card">
+            <div class="flex items-center justify-between mb-4">
+              <span class="eyebrow-pill" style="margin-bottom:0;">رایتل و اینترنت ثابت</span>
+              <span class="status-pill status-pill--ok">بهینه و متصل</span>
+            </div>
+            <h3 class="apple-card-title">مخابرات، شاتل، رایتل و زیتل</h3>
+            <p class="apple-card-desc">
+              حداقل تأخیر برای تماس‌های تصویری، استریم <bdi>4K</bdi>، ابزارهای هوش مصنوعی و معاملات مالی بدون دستکاری <bdi>DNS</bdi>.
+            </p>
+            <ul class="spec-list">
+              <li class="spec-row">
+                <span class="spec-label">پروتکل اصلی</span>
+                <span class="spec-val"><bdi>gRPC Multi-Stream</bdi></span>
+              </li>
+              <li class="spec-row">
+                <span class="spec-label">امنیت نام‌دامنه</span>
+                <span class="spec-val"><bdi>DNS over HTTPS (DoH)</bdi></span>
+              </li>
+              <li class="spec-row">
+                <span class="spec-label">سازگاری کامل</span>
+                <span class="spec-val">رایتل، مخابرات، آسیاتک، های‌وب</span>
+              </li>
+              <li class="spec-row">
+                <span class="spec-label">میانگین پینگ</span>
+                <span class="spec-val"><bdi>45–65 ms</bdi></span>
+              </li>
+            </ul>
+            <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">
+              دریافت کانفیگ تست اینترنت ثابت
+            </a>
+          </article>
+        </div>
+
+        <h3 class="apple-card-title text-center mb-4">جدول مقایسه فنی رفتار شبکه در اپراتورهای ایران</h3>
+        <div class="table-wrap">
+          <table class="apple-table">
+            <thead>
+              <tr>
+                <th>اپراتور / بستر شبکه</th>
+                <th>مکانیزم اختلال و <bdi>DPI</bdi></th>
+                <th>پروتکل پیشنهادی روزنه نت</th>
+                <th>تنظیم <bdi>Fragment</bdi> و بهینه‌سازی</th>
+                <th>میانگین پینگ</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>همراه اول (<bdi>MCI</bdi>)</strong></td>
+                <td>بازرسی سخت‌گیرانه <bdi>TLS Client Hello</bdi> و مسدودسازی پورت</td>
+                <td><bdi>VLESS XTLS Reality (Port 443)</bdi></td>
+                <td><bdi>Packets: 1-3 | Length: 100-200 | Interval: 10-20</bdi></td>
+                <td><bdi>70–78 ms</bdi></td>
+              </tr>
+              <tr>
+                <td><strong>ایرانسل (<bdi>Irancell</bdi>)</strong></td>
+                <td>محدودسازی <bdi>UDP</bdi> و کاهش سرعت در ساعات شلوغی شبانه</td>
+                <td><bdi>VLESS WS + Clean IP / Trojan gRPC</bdi></td>
+                <td>چرخش خودکار <bdi>Clean IP</bdi> هر ۶ ساعت + <bdi>TCP Window</bdi></td>
+                <td><bdi>62–72 ms</bdi></td>
+              </tr>
+              <tr>
+                <td><strong>رایتل (<bdi>Rightel</bdi>)</strong></td>
+                <td>مداخله کمتر با نوسان مقطعی در ساعات پیک</td>
+                <td><bdi>VLESS Vision / Reality</bdi></td>
+                <td>حداقل سربار رمزنگاری + مسیریابی مستقیم اروپا</td>
+                <td><bdi>55–70 ms</bdi></td>
+              </tr>
+              <tr>
+                <td><strong>مخابرات و اینترنت ثابت</strong></td>
+                <td>مسموم‌سازی <bdi>DNS</bdi> روی مودم‌های <bdi>ADSL / VDSL / FTTH</bdi></td>
+                <td><bdi>gRPC Multi-Stream Direct</bdi></td>
+                <td>فعال‌سازی اجباری <bdi>DoH (1.1.1.1)</bdi> و تفکیک ترافیک داخلی</td>
+                <td><bdi>45–65 ms</bdi></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
+    </section>
 
-      <!-- Card 2: Irancell -->
-      <div class="glass-card glass-card-hover rounded-3xl p-7 flex flex-col justify-between border-slate-800/80 relative overflow-hidden group">
-        <div class="absolute top-0 right-0 left-0 h-1.5 bg-gradient-to-r from-amber-500 to-yellow-400"></div>
-        <div>
-          <div class="flex items-center justify-between mb-5">
-            <span class="px-3 py-1 rounded-full text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30">ایرانسل (Irancell)</span>
-            <span class="flex items-center gap-1.5 text-xs text-emerald-400 font-semibold">
-              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-              پایدار و متصل
-            </span>
-          </div>
-
-          <h3 class="text-xl font-extrabold text-white mb-2">کانفیگ ویژه ایرانسل</h3>
-          <p class="text-xs text-slate-400 leading-relaxed mb-6">
-            مجهز به تکنولوژی دور زدن اختلال هوشمند، جلوگیری از Packet Drop و تاخیر عمدی (Throttling) دکل‌های زرد.
+    <!-- Architecture, Fragment, 5 Locations & SLA Guarantees -->
+    <section id="architecture" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">معماری فنی و استاندارد کیفیت</span>
+          <h2 class="section-title">فناوری <bdi>VLESS Reality</bdi>، بهینه‌سازی <bdi>Fragment</bdi> و ۵ لوکیشن فعال</h2>
+          <p class="section-desc">
+            تمامی اشتراک‌های روزنه نت بدون وابستگی به دامنه‌های در معرض فیلتر و با شفافیت کامل فنی ارائه می‌شوند.
           </p>
-
-          <div class="space-y-3 mb-6">
-            <div class="flex items-center justify-between text-xs py-2 border-b border-slate-800">
-              <span class="text-slate-400">پروتکل فعال:</span>
-              <span class="text-slate-200 font-mono font-semibold">VLESS WS + Clean IP</span>
-            </div>
-            <div class="flex items-center justify-between text-xs py-2 border-b border-slate-800">
-              <span class="text-slate-400">پایش آی‌پی:</span>
-              <span class="text-emerald-400 font-semibold">اسکن خودکار هر ۶ ساعت</span>
-            </div>
-            <div class="flex items-center justify-between text-xs py-2 border-b border-slate-800">
-              <span class="text-slate-400">پروتکل جایگزین:</span>
-              <span class="text-slate-200 font-mono">Trojan gRPC TLS</span>
-            </div>
-            <div class="flex items-center justify-between text-xs py-2">
-              <span class="text-slate-400">میانگین پینگ:</span>
-              <span class="text-emerald-400 font-bold font-mono">۶۲ ~ ۷۲ ms</span>
-            </div>
-          </div>
         </div>
 
-        <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="w-full py-3 rounded-xl bg-amber-600/20 hover:bg-amber-600/30 border border-amber-500/30 text-amber-300 font-bold text-xs flex items-center justify-center gap-1.5 transition-colors">
-          <span>دریافت کانفیگ تست ایرانسل</span>
-          <span>←</span>
-        </a>
+        <div class="bento-grid bento-grid--2 mb-6">
+          <article class="apple-card">
+            <div class="apple-card-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3 class="apple-card-title">تنظیم بهینه <bdi>Fragment</bdi> در هسته <bdi>Xray</bdi></h3>
+            <p class="apple-card-desc mb-4">
+              فناوری <bdi>Fragment</bdi> بسته اولیه اتصال (<bdi>TLS Client Hello</bdi>) را به قطعات کوچک تقسیم می‌کند تا سامانه بازرسی اپراتور نتواند نام دامنه مقصد (<bdi>SNI</bdi>) را پیش از تکمیل نشست تحلیل کند.
+            </p>
+            <div class="code-box">
+              <div>"fragment": { "packets": "1-3", "length": "100-200", "interval": "10-20" }</div>
+            </div>
+          </article>
+
+          <article class="apple-card">
+            <div class="apple-card-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <h3 class="apple-card-title">۵ لوکیشن فعال با آی‌پی تمیز</h3>
+            <p class="apple-card-desc">
+              تمام پلن‌ها به صورت پیش‌فرض به هر ۵ لوکیشن فعال روزنه نت برای وب‌گردی، استریم <bdi>4K</bdi>، ابزارهای هوش مصنوعی، گیمینگ و خدمات بانکی بین‌المللی دسترسی دارند:
+            </p>
+            <div class="location-pills">
+              <span class="location-pill">آلمان (فرانکفورت)</span>
+              <span class="location-pill">هلند (آمستردام)</span>
+              <span class="location-pill">انگلیس (لندن)</span>
+              <span class="location-pill">آمریکا</span>
+              <span class="location-pill">ترکیه (استانبول)</span>
+            </div>
+          </article>
+        </div>
+
+        <div class="bento-grid bento-grid--4">
+          <article class="apple-card apple-card--tint">
+            <h3 class="apple-card-title">چندکاربره هم‌زمان</h3>
+            <p class="apple-card-desc">
+              استفاده هم‌زمان خانوادگی روی گوشی، تبلت و لپ‌تاپ در تمام پلن‌ها با رعایت مصرف منصفانه آزاد است.
+            </p>
+          </article>
+          <article class="apple-card apple-card--tint">
+            <h3 class="apple-card-title">انتقال ۱۰۰٪ حجم</h3>
+            <p class="apple-card-desc">
+              با تمدید پیش از انقضا یا تا ۳۰ روز پس از آن، تمام حجم باقیمانده به دوره جدید منتقل می‌شود (<bdi>Data Rollover</bdi>).
+            </p>
+          </article>
+          <article class="apple-card apple-card--tint">
+            <h3 class="apple-card-title">جبران خودکار <bdi>2X SLA</bdi></h3>
+            <p class="apple-card-desc">
+              در صورت قطعی سراسری تاییدشده بالای ۳ ساعت، تا دو برابر مدت اختلال به‌صورت خودکار به اشتراک شما افزوده می‌شود.
+            </p>
+          </article>
+          <article class="apple-card apple-card--tint">
+            <h3 class="apple-card-title">تمدید دستی و عودت ۲۴ ساعته</h3>
+            <p class="apple-card-desc">
+              تمدید ۱۰۰٪ دستی و بدون برداشت خودکار وجه انجام می‌شود و تا ۲۴ ساعت اول ضمانت بازگشت وجه برقرار است.
+            </p>
+          </article>
+        </div>
       </div>
+    </section>
 
-      <!-- Card 3: Wi-Fi & Fixed Home Internet -->
-      <div class="glass-card glass-card-hover rounded-3xl p-7 flex flex-col justify-between border-slate-800/80 relative overflow-hidden group">
-        <div class="absolute top-0 right-0 left-0 h-1.5 bg-gradient-to-r from-emerald-500 to-teal-400"></div>
-        <div>
-          <div class="flex items-center justify-between mb-5">
-            <span class="px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">وای‌فای و اینترنت ثابت</span>
-            <span class="flex items-center gap-1.5 text-xs text-emerald-400 font-semibold">
-              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
-              پایدار و متصل
-            </span>
-          </div>
-
-          <h3 class="text-xl font-extrabold text-white mb-2">مخابرات، شاتل، زیتل و آسیاتک</h3>
-          <p class="text-xs text-slate-400 leading-relaxed mb-6">
-            کمترین پینگ ممکن، پایدارترین مسیر برای استریم یوتیوب 4K، بازی‌های آنلاین رقابتی و ترید بدون لگ.
+    <!-- Pricing Section (Unified Apple Tabs) -->
+    <section id="pricing" class="section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">تعرفه‌های رسمی و شفاف</span>
+          <h2 class="section-title">خرید سرور <bdi>V2Ray</bdi> و بسته‌های اشتراک روزنه نت</h2>
+          <p class="section-desc">
+            تمامی بسته‌ها شامل ۵ لوکیشن فعال (آلمان، هلند، انگلیس، آمریکا، ترکیه)، استفاده چندکاربره هم‌زمان (خانوادگی)، ترافیک واقعی <bdi>۱:۱</bdi> و انتقال ۱۰۰٪ حجم باقیمانده هستند.
           </p>
+        </div>
 
-          <div class="space-y-3 mb-6">
-            <div class="flex items-center justify-between text-xs py-2 border-b border-slate-800">
-              <span class="text-slate-400">پروتکل فعال:</span>
-              <span class="text-slate-200 font-mono font-semibold">gRPC Multi-Stream Direct</span>
-            </div>
-            <div class="flex items-center justify-between text-xs py-2 border-b border-slate-800">
-              <span class="text-slate-400">قابلیت ویژه:</span>
-              <span class="text-emerald-400 font-semibold">حداکثر پهنای باند بدون لیمیت</span>
-            </div>
-            <div class="flex items-center justify-between text-xs py-2 border-b border-slate-800">
-              <span class="text-slate-400">سازگاری:</span>
-              <span class="text-slate-200 font-mono">رایتل، زیتل، های‌وب، پیشگامان</span>
-            </div>
-            <div class="flex items-center justify-between text-xs py-2">
-              <span class="text-slate-400">میانگین پینگ:</span>
-              <span class="text-emerald-400 font-bold font-mono">۴۵ ~ ۶۵ ms</span>
-            </div>
+        <div class="text-center">
+          <div class="tab-switcher" role="tablist" aria-label="دوره زمانی پلن‌ها">
+            <button type="button" class="tab-btn is-active" role="tab" aria-selected="true" aria-controls="panel-1m" data-tab="panel-1m">۱ ماهه</button>
+            <button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-3m" data-tab="panel-3m">۳ ماهه و بلندمدت</button>
+            <button type="button" class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-payg" data-tab="panel-payg">مصرف آزاد</button>
           </div>
         </div>
 
-        <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="w-full py-3 rounded-xl bg-emerald-600/20 hover:bg-emerald-600/30 border border-emerald-500/30 text-emerald-300 font-bold text-xs flex items-center justify-center gap-1.5 transition-colors">
-          <span>دریافت کانفیگ تست اینترنت ثابت</span>
-          <span>←</span>
-        </a>
+        <!-- Tab 1: 1-Month Plans -->
+        <div id="panel-1m" class="tab-panel pricing-grid pricing-grid--5" role="tabpanel">
+          <!-- Free Trial -->
+          <article class="pricing-card">
+            <h3 class="pricing-name">تست رایگان (<bdi>Trial</bdi>)</h3>
+            <div class="pricing-volume">۲ تا ۳ گیگابایت • ۳ روزه</div>
+            <div class="pricing-price">رایگان</div>
+            <div class="pricing-unit">۰ تومان — بدون کارت بانکی</div>
+            <ul class="pricing-features">
+              <li>۲ تا ۳ گیگابایت حجم هدیه</li>
+              <li>اعتبار ۳ روزه روی تمام لوکیشن‌ها</li>
+              <li>سرعت کامل سرورهای اصلی</li>
+              <li>استفاده چندکاربره هم‌زمان</li>
+            </ul>
+            <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">دریافت تست رایگان</a>
+          </article>
+
+          <!-- 25 GB -->
+          <article class="pricing-card">
+            <h3 class="pricing-name">بسته اقتصادی</h3>
+            <div class="pricing-volume">۲۵ گیگابایت • ۱ ماهه</div>
+            <div class="pricing-price">۲۱۵,۰۰۰</div>
+            <div class="pricing-unit">تومان — اعتبار ۳۰ روزه</div>
+            <ul class="pricing-features">
+              <li>استفاده چندکاربره هم‌زمان (خانوادگی)</li>
+              <li>۵ لوکیشن فعال اروپا، آمریکا و ترکیه</li>
+              <li>انتقال ۱۰۰٪ حجم (<bdi>Data Rollover</bdi>)</li>
+              <li>جبران <bdi>2X SLA</bdi> + عودت ۲۴ ساعته</li>
+            </ul>
+            <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">خرید بسته ۲۵ گیگ</a>
+          </article>
+
+          <!-- 45 GB (Featured) -->
+          <article class="pricing-card pricing-card--featured">
+            <span class="pricing-badge">پرفروش‌ترین</span>
+            <h3 class="pricing-name">بسته استاندارد</h3>
+            <div class="pricing-volume">۴۵ گیگابایت • ۱ ماهه</div>
+            <div class="pricing-price">۲۹۵,۰۰۰</div>
+            <div class="pricing-unit">تومان — اعتبار ۳۰ روزه</div>
+            <ul class="pricing-features">
+              <li>استفاده چندکاربره هم‌زمان (خانوادگی)</li>
+              <li>۵ لوکیشن فعال + بهینه برای همراه اول و ایرانسل</li>
+              <li>انتقال ۱۰۰٪ حجم (<bdi>Data Rollover</bdi>)</li>
+              <li>جبران <bdi>2X SLA</bdi> + عودت ۲۴ ساعته</li>
+            </ul>
+            <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full">خرید بسته ۴۵ گیگ</a>
+          </article>
+
+          <!-- 75 GB -->
+          <article class="pricing-card">
+            <h3 class="pricing-name">بسته حرفه‌ای <bdi>VIP</bdi></h3>
+            <div class="pricing-volume">۷۵ گیگابایت • ۱ ماهه</div>
+            <div class="pricing-price">۳۹۵,۰۰۰</div>
+            <div class="pricing-unit">تومان — اعتبار ۳۰ روزه</div>
+            <ul class="pricing-features">
+              <li>استفاده چندکاربره هم‌زمان (خانوادگی)</li>
+              <li>۵ لوکیشن فعال با پینگ بهینه گیمینگ و ترید</li>
+              <li>انتقال ۱۰۰٪ حجم (<bdi>Data Rollover</bdi>)</li>
+              <li>جبران <bdi>2X SLA</bdi> + پشتیبانی ۲۴/۷</li>
+            </ul>
+            <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">خرید بسته ۷۵ گیگ</a>
+          </article>
+
+          <!-- 100 GB -->
+          <article class="pricing-card">
+            <h3 class="pricing-name">بسته پلاس</h3>
+            <div class="pricing-volume">۱۰۰ گیگابایت • ۱ ماهه</div>
+            <div class="pricing-price">۴۹۵,۰۰۰</div>
+            <div class="pricing-unit">تومان — اعتبار ۳۰ روزه</div>
+            <ul class="pricing-features">
+              <li>استفاده چندکاربره هم‌زمان (خانوادگی)</li>
+              <li>۵ لوکیشن فعال با پهنای باند اختصاصی</li>
+              <li>انتقال ۱۰۰٪ حجم (<bdi>Data Rollover</bdi>)</li>
+              <li>جبران <bdi>2X SLA</bdi> + تمدید ۱۰۰٪ دستی</li>
+            </ul>
+            <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">خرید بسته ۱۰۰ گیگ</a>
+          </article>
+        </div>
+
+        <!-- Tab 2: 3-Month & Heavy Plans -->
+        <div id="panel-3m" class="tab-panel pricing-grid" role="tabpanel" hidden>
+          <!-- 150 GB 1-Month -->
+          <article class="pricing-card">
+            <h3 class="pricing-name">بسته پرمصرف ۱ ماهه</h3>
+            <div class="pricing-volume">۱۵۰ گیگابایت • ۱ ماهه</div>
+            <div class="pricing-price">۶۹۵,۰۰۰</div>
+            <div class="pricing-unit">تومان — اعتبار ۳۰ روزه</div>
+            <ul class="pricing-features">
+              <li>مناسب مصرف سنگین کاری، تیمی و استریم <bdi>4K</bdi></li>
+              <li>استفاده چندکاربره هم‌زمان (خانوادگی)</li>
+              <li>۵ لوکیشن فعال (آلمان، هلند، انگلیس، آمریکا، ترکیه)</li>
+              <li>انتقال ۱۰۰٪ حجم (<bdi>Data Rollover</bdi>) + <bdi>2X SLA</bdi></li>
+            </ul>
+            <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">خرید ۱۵۰ گیگ (۱ ماهه)</a>
+          </article>
+
+          <!-- 150 GB 3-Month -->
+          <article class="pricing-card pricing-card--featured">
+            <span class="pricing-badge">به‌صرفه‌ترین</span>
+            <h3 class="pricing-name">بسته اختصاصی ۳ ماهه</h3>
+            <div class="pricing-volume">۱۵۰ گیگابایت • ۳ ماهه</div>
+            <div class="pricing-price">۸۹۰,۰۰۰</div>
+            <div class="pricing-unit">تومان — اعتبار ۹۰ روزه</div>
+            <ul class="pricing-features">
+              <li>بدون دغدغه تمدید ماهانه به مدت ۹۰ روز</li>
+              <li>استفاده چندکاربره هم‌زمان (خانوادگی)</li>
+              <li>۵ لوکیشن فعال (آلمان، هلند، انگلیس، آمریکا، ترکیه)</li>
+              <li>انتقال ۱۰۰٪ حجم (<bdi>Data Rollover</bdi>) + <bdi>2X SLA</bdi></li>
+            </ul>
+            <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full">خرید ۱۵۰ گیگ (۳ ماهه)</a>
+          </article>
+        </div>
+
+        <!-- Tab 3: Pay-As-You-Go -->
+        <div id="panel-payg" class="tab-panel pricing-grid pricing-grid--3" role="tabpanel" hidden>
+          <article class="pricing-card">
+            <h3 class="pricing-name">مصرف آزاد پایه</h3>
+            <div class="pricing-volume">۱۰ گیگابایت • بدون تاریخ انقضا</div>
+            <div class="pricing-price">۸۰,۰۰۰</div>
+            <div class="pricing-unit">تومان — هر گیگابایت ۸,۰۰۰ تومان</div>
+            <ul class="pricing-features">
+              <li>بدون محدودیت زمانی (تا اتمام کامل حجم)</li>
+              <li>استفاده چندکاربره هم‌زمان (خانوادگی)</li>
+              <li>دسترسی به تمام ۵ لوکیشن فعال</li>
+              <li>تمدید ۱۰۰٪ دستی و ضمانت ۲۴ ساعته عودت وجه</li>
+            </ul>
+            <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">سفارش مصرف آزاد در ربات</a>
+          </article>
+
+          <article class="pricing-card pricing-card--featured">
+            <span class="pricing-badge">محبوب</span>
+            <h3 class="pricing-name">مصرف آزاد استاندارد</h3>
+            <div class="pricing-volume">۵۰ گیگابایت • بدون تاریخ انقضا</div>
+            <div class="pricing-price">۴۰۰,۰۰۰</div>
+            <div class="pricing-unit">تومان — هر گیگابایت ۸,۰۰۰ تومان</div>
+            <ul class="pricing-features">
+              <li>ترافیک خالص <bdi>۱:۱</bdi> بدون انقضای زمانی</li>
+              <li>استفاده چندکاربره هم‌زمان (خانوادگی)</li>
+              <li>دسترسی به تمام ۵ لوکیشن فعال</li>
+              <li>جبران <bdi>2X SLA</bdi> + تمدید ۱۰۰٪ دستی</li>
+            </ul>
+            <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full">سفارش مصرف آزاد در ربات</a>
+          </article>
+
+          <article class="pricing-card">
+            <h3 class="pricing-name">مصرف آزاد حرفه‌ای</h3>
+            <div class="pricing-volume">۱۰۰ گیگابایت • بدون تاریخ انقضا</div>
+            <div class="pricing-price">۸۰۰,۰۰۰</div>
+            <div class="pricing-unit">تومان — هر گیگابایت ۸,۰۰۰ تومان</div>
+            <ul class="pricing-features">
+              <li>مناسب کاربران کم‌مصرف بلندمدت یا مصرف پشتیبان</li>
+              <li>استفاده چندکاربره هم‌زمان (خانوادگی)</li>
+              <li>دسترسی به تمام ۵ لوکیشن فعال</li>
+              <li>ترافیک واقعی <bdi>۱:۱</bdi> + عودت ۲۴ ساعته</li>
+            </ul>
+            <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">سفارش مصرف آزاد در ربات</a>
+          </article>
+        </div>
       </div>
+    </section>
 
-    </div>
-  </section>
+    <!-- Client Downloads Section -->
+    <section id="clients" class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">اپلیکیشن‌های رسمی اتصال</span>
+          <h2 class="section-title">دانلود مستقیم کلاینت‌های <bdi>V2Ray</bdi></h2>
+          <p class="section-desc">
+            لینک اشتراک روزنه نت با تمام کلاینت‌های معتبر مبتنی بر هسته <bdi>Xray</bdi> و <bdi>Sing-box</bdi> سازگاری کامل دارد. نسخه اصلی را از صفحات اختصاصی زیر دریافت کنید.
+          </p>
+        </div>
 
-  <!-- In-between Call-To-Action Banner -->
-  <section class="py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-    <div class="glass-card rounded-3xl p-8 sm:p-12 border border-emerald-500/30 bg-gradient-to-r from-slate-900 via-slate-900 to-emerald-950/40 relative overflow-hidden flex flex-col lg:flex-row items-center justify-between gap-8">
-      <div class="max-w-2xl text-right">
-        <span class="px-3.5 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 mb-4 inline-block">تست رایگان ۱۰۰٪ بدون تعهد</span>
-        <h3 class="text-2xl sm:text-3xl font-extrabold text-white mb-3">
-          هنوز در خرید شک دارید؟ همین الان کیفیت واقعی را تست کنید!
-        </h3>
-        <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
-          تنها با یک کلیک در ربات تلگرام روزنه نت، ۲ تا ۳ گیگابایت کانفیگ پرسرعت اختصاصی دریافت نمایید، پینگ را تست کنید و پس از اطمینان کامل خرید بفرمایید.
-        </p>
+        <div class="bento-grid bento-grid--4">
+          <!-- Android -->
+          <article class="apple-card">
+            <div class="apple-card-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            </div>
+            <h3 class="apple-card-title">اندروید (<bdi>Android</bdi>)</h3>
+            <p class="apple-card-desc">پشتیبانی کامل از <bdi>VLESS Reality</bdi> و تنظیمات دقیق <bdi>Fragment</bdi> در گوشی‌های اندروید.</p>
+            <div class="card-actions">
+              <a href="https://roozaneh.github.io/v2ray-clients-download/apps/v2rayng.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full">دانلود <bdi>v2rayNG</bdi></a>
+              <a href="https://roozaneh.github.io/v2ray-clients-download/apps/happ.html" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">دانلود <bdi>Happ</bdi></a>
+              <a href="https://roozaneh.github.io/v2ray-clients-download/apps/nekobox.html" target="_blank" rel="noopener noreferrer" class="btn btn-ghost w-full">دانلود <bdi>NekoBox</bdi> و <bdi>Sing-box</bdi></a>
+            </div>
+          </article>
+
+          <!-- iOS -->
+          <article class="apple-card">
+            <div class="apple-card-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="3"/><line x1="10" y1="5" x2="14" y2="5"/></svg>
+            </div>
+            <h3 class="apple-card-title">آیفون و آیپد (<bdi>iOS</bdi>)</h3>
+            <p class="apple-card-desc">اتصال پایدار با مصرف باتری بهینه و پشتیبانی بومی از سابسکریپشن هوشمند.</p>
+            <div class="card-actions">
+              <a href="https://roozaneh.github.io/v2ray-clients-download/apps/streisand.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full">دانلود <bdi>Streisand</bdi></a>
+              <a href="https://roozaneh.github.io/v2ray-clients-download/apps/v2box.html" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">دانلود <bdi>V2Box</bdi></a>
+            </div>
+          </article>
+
+          <!-- Windows -->
+          <article class="apple-card">
+            <div class="apple-card-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <h3 class="apple-card-title">ویندوز (<bdi>Windows</bdi>)</h3>
+            <p class="apple-card-desc">کلاینت‌های دسکتاپ همراه با حالت <bdi>TUN Mode</bdi> برای بازی‌های آنلاین و کل سیستم.</p>
+            <div class="card-actions">
+              <a href="https://roozaneh.github.io/v2ray-clients-download/apps/v2rayn.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full">دانلود <bdi>v2rayN</bdi></a>
+              <a href="https://roozaneh.github.io/v2ray-clients-download/apps/nekoray.html" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">دانلود <bdi>NekoRay</bdi></a>
+            </div>
+          </article>
+
+          <!-- macOS & Cross-platform -->
+          <article class="apple-card">
+            <div class="apple-card-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17l6-6-6-6"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+            </div>
+            <h3 class="apple-card-title">مک و کراس‌پلتفرم (<bdi>macOS</bdi>)</h3>
+            <p class="apple-card-desc">سازگار با تراشه‌های <bdi>Apple Silicon</bdi> و سیستم‌های ویندوز، لینوکس و اندروید.</p>
+            <div class="card-actions">
+              <a href="https://roozaneh.github.io/v2ray-clients-download/apps/hiddify.html" target="_blank" rel="noopener noreferrer" class="btn btn-primary w-full">دانلود <bdi>Hiddify</bdi></a>
+              <a href="https://roozaneh.github.io/v2ray-clients-download/apps/singbox.html" target="_blank" rel="noopener noreferrer" class="btn btn-secondary w-full">دانلود <bdi>Sing-box</bdi></a>
+            </div>
+          </article>
+        </div>
       </div>
-      <div class="flex-shrink-0">
-        <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="emerald-glow inline-flex items-center gap-2 px-8 py-4 rounded-2xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-base transition-all transform hover:scale-105">
-          <span>👉 ورود به ربات و دریافت کانفیگ تست</span>
-        </a>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section id="faq" class="section-alt">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-eyebrow">پاسخ به سوالات متداول</span>
+          <h2 class="section-title">پرسش‌های پرتکرار درباره کانفیگ <bdi>V2Ray</bdi></h2>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary class="faq-trigger">
+              <span>۱. آیا کانفیگ‌های روزنه نت روی همراه اول و ایرانسل به‌طور هم‌زمان کار می‌کنند؟</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-panel">
+              بله. لینک اشتراک هوشمند روزنه نت شامل نودهای تفکیک‌شده برای همراه اول (<bdi>VLESS Reality</bdi> و <bdi>Fragment</bdi>)، ایرانسل (<bdi>VLESS WS</bdi> و <bdi>gRPC</bdi> با <bdi>Clean IP</bdi>)، رایتل و اینترنت ثابت مخابرات است تا در زمان جابه‌جایی بین اینترنت سیم‌کارت و وای‌فای همیشه مسیر پایدار در دسترس باشد.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-trigger">
+              <span>۲. سرورهای روزنه نت در کدام لوکیشن‌ها فعال هستند؟</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-panel">
+              در حال حاضر ۵ لوکیشن فعال شامل <strong>آلمان، هلند، انگلیس، آمریکا و ترکیه</strong> در تمامی پلن‌های روزنه نت با آی‌پی تمیز و پورت‌های پرسرعت در دسترس است.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-trigger">
+              <span>۳. تست رایگان ۳ روزه و ضمانت ۲۴ ساعته عودت وجه چگونه کار می‌کند؟</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-panel">
+              پیش از خرید می‌توانید از طریق <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="text-accent"><bdi>@RoozanehNetBot</bdi></a> بسته تست رایگان ۲ تا ۳ گیگابایتی با اعتبار ۳ روزه دریافت کنید. همچنین پس از خرید، در صورت عدم برقراری اتصال پایدار در ۲۴ ساعت اول (و مصرف زیر ۲ گیگابایت)، ۱۰۰٪ وجه مسترد می‌شود.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-trigger">
+              <span>۴. آیا امکان استفاده چندکاربره هم‌زمان در همه پلن‌ها وجود دارد؟</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-panel">
+              بله. تمامی پلن‌های روزنه نت از استفاده چندکاربره هم‌زمان (خانوادگی) روی گوشی، تبلت و رایانه با رعایت مصرف منصفانه پشتیبانی می‌کنند و هیچ محدودیت سرعتی روی پهنای باند اعمال نمی‌شود.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-trigger">
+              <span>۵. قانون عدم سوختن حجم (<bdi>Data Rollover</bdi>) و تمدید دستی چگونه عمل می‌کند؟</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-panel">
+              تمدید در روزنه نت ۱۰۰٪ دستی است و هیچ کسر وجه خودکاری انجام نمی‌شود. اگر پیش از پایان تاریخ انقضا یا حداکثر تا ۳۰ روز پس از آن تمدید کنید، ۱۰۰٪ حجم باقیمانده دوره قبل به دوره جدید منتقل می‌شود.
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary class="faq-trigger">
+              <span>۶. سازوکار جبران خودکار <bdi>2X SLA</bdi> چیست؟</span>
+              <svg class="faq-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </summary>
+            <div class="faq-panel">
+              اگر به دلیل اختلالات زیرساختی، قطعی سراسری تاییدشده بیش از ۳ ساعت رخ دهد، سامانه پایش به‌صورت خودکار و بدون نیاز به ثبت تیکت، تا دو برابر مدت اختلال را به اعتبار زمانی تمام مشترکین فعال اضافه می‌کند.
+            </div>
+          </details>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <!-- Pricing Cards Section -->
-  <section id="pricing" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-    <div class="text-center max-w-3xl mx-auto mb-14">
-      <span class="text-emerald-400 text-sm font-bold tracking-wider uppercase mb-2 block">پلن‌ها و قیمت‌های رسمی</span>
-      <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight mb-4">
-        تعرفه‌های شفاف، ترافیک واقعی و قانون عدم سوختن حجم
-      </h2>
-      <p class="text-slate-400 text-sm sm:text-base leading-relaxed">
-        تمام پلن‌ها بر روی پورت ۱۰ گیگابیت اختصاصی، با گارانتی اتصال و قابلیت اتصال چندکاربره هم‌زمان ارائه می‌گردند.
-      </p>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-
-      <!-- Plan 1: Free Trial -->
-      <div class="glass-card glass-card-hover rounded-3xl p-6 flex flex-col justify-between border-slate-800">
+  <!-- Unified 4-Column Apple Light Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
         <div>
-          <div class="flex items-center justify-between mb-4">
-            <span class="text-2xl">🎁</span>
-            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-slate-800 text-slate-300">تست رایگان</span>
-          </div>
-          <h3 class="text-lg font-bold text-white mb-1">بسته هدیه (Trial)</h3>
-          <p class="text-xs text-slate-400 mb-5">تست فوری سرعت روی یوتیوب و استعلام پینگ</p>
+          <a href="https://roozaneh.github.io/" class="brand-link mb-4">
+            <img src="assets/brand/logo-rail.svg" alt="لوگوی روزنه نت" class="brand-logo" width="32" height="32">
+            <span class="brand-meta">
+              <span class="brand-name">روزنه نت</span>
+              <span class="brand-sub"><bdi>Roozaneh Net</bdi></span>
+            </span>
+          </a>
+          <p class="apple-card-desc mb-4">
+            زیرساخت مهندسی‌شده دسترسی آزاد با پروتکل <bdi>VLESS Reality</bdi>، بهینه‌سازی <bdi>Fragment</bdi> و ۵ لوکیشن فعال برای تمام اپراتورهای ایران.
+          </p>
+          <span class="status-pill status-pill--ok">تمام ۵ لوکیشن فعال و پایدار</span>
+        </div>
 
-          <div class="mb-6">
-            <div class="text-3xl font-black text-emerald-400">رایگان</div>
-            <div class="text-xs text-slate-400 mt-1">بدون نیاز به کارت بانکی</div>
-          </div>
-
-          <ul class="space-y-3 text-xs text-slate-300 mb-6 border-t border-slate-800/80 pt-5">
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400">✓</span>
-              <span><strong>۲ الی ۳ گیگابایت</strong> ترافیک هدیه</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400">✓</span>
-              <span>مدت زمان: <strong>۱ الی ۳ روز</strong></span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400">✓</span>
-              <span>دسترسی به تمامی پروتکل‌ها</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400">✓</span>
-              <span>تحویل فوری در ربات تلگرام</span>
-            </li>
+        <div>
+          <h3 class="footer-col-title">سرویس‌ها</h3>
+          <ul class="footer-links">
+            <li><a href="https://roozaneh.github.io/">پورتال مرکزی روزنه نت</a></li>
+            <li><a href="https://roozaneh.github.io/kharid-vpn-filter-shekan/">خرید <bdi>VPN</bdi> و فیلترشکن</a></li>
+            <li><a href="https://roozaneh.github.io/v2ray-configs-iran/">کانفیگ <bdi>V2Ray</bdi> همراه اول و ایرانسل</a></li>
+            <li><a href="https://roozaneh.github.io/iran-tunnel-v2ray-netmeli/">تانل اینترنت ملی و <bdi>Clean IP</bdi></a></li>
+            <li><a href="https://roozaneh.github.io/v2ray-clients-download/">دانلود کلاینت‌های <bdi>V2Ray</bdi></a></li>
           </ul>
         </div>
 
-        <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="w-full py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs flex items-center justify-center transition-colors">
-          دریافت رایگان تست
-        </a>
-      </div>
-
-      <!-- Plan 2: Economy -->
-      <div class="glass-card glass-card-hover rounded-3xl p-6 flex flex-col justify-between border-slate-800">
         <div>
-          <div class="flex items-center justify-between mb-4">
-            <span class="text-2xl">🟢</span>
-            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-slate-800 text-slate-300">اقتصادی</span>
-          </div>
-          <h3 class="text-lg font-bold text-white mb-1">بسته اقتصادی</h3>
-          <p class="text-xs text-slate-400 mb-5">مناسب اینستاگرام، تلگرام، وب‌گردی روزمره</p>
-
-          <div class="mb-6">
-            <div class="text-3xl font-black text-white">۲۱۵,۰۰۰ <span class="text-xs font-normal text-slate-400">تومان</span></div>
-            <div class="text-xs text-slate-400 mt-1">اشتراک ۱ ماهه (۳۰ روزه)</div>
-          </div>
-
-          <ul class="space-y-3 text-xs text-slate-300 mb-6 border-t border-slate-800/80 pt-5">
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400">✓</span>
-              <span><strong>۲۵ گیگابایت</strong> ترافیک خالص</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400">✓</span>
-              <span>اتصال ۲ کاربر هم‌زمان</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400">✓</span>
-              <span>ترافیک Rollover (عدم سوختن حجم)</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400">✓</span>
-              <span>پشتیبانی فنی آنلاین</span>
-            </li>
+          <h3 class="footer-col-title">اپلیکیشن‌ها</h3>
+          <ul class="footer-links">
+            <li><a href="https://roozaneh.github.io/v2ray-clients-download/apps/v2rayng.html"><bdi>v2rayNG</bdi> اندروید</a></li>
+            <li><a href="https://roozaneh.github.io/v2ray-clients-download/apps/happ.html"><bdi>Happ</bdi> اندروید</a></li>
+            <li><a href="https://roozaneh.github.io/v2ray-clients-download/apps/streisand.html"><bdi>Streisand</bdi> آیفون</a></li>
+            <li><a href="https://roozaneh.github.io/v2ray-clients-download/apps/v2box.html"><bdi>V2Box</bdi> آیفون و مک</a></li>
+            <li><a href="https://roozaneh.github.io/v2ray-clients-download/apps/v2rayn.html"><bdi>v2rayN</bdi> ویندوز</a></li>
+            <li><a href="https://roozaneh.github.io/v2ray-clients-download/apps/hiddify.html"><bdi>Hiddify</bdi> کراس‌پلتفرم</a></li>
           </ul>
         </div>
 
-        <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="w-full py-3 rounded-xl bg-slate-800 hover:bg-emerald-600 hover:text-white text-slate-200 font-bold text-xs flex items-center justify-center transition-colors">
-          خرید بسته اقتصادی
-        </a>
-      </div>
-
-      <!-- Plan 3: Standard (Featured) -->
-      <div class="glass-card rounded-3xl p-6 flex flex-col justify-between border-2 border-emerald-500/80 relative transform lg:-translate-y-2 shadow-xl shadow-emerald-500/10">
-        <div class="absolute -top-3.5 right-1/2 translate-x-1/2 px-4 py-1 rounded-full bg-emerald-500 text-slate-950 text-xs font-black tracking-wide shadow-md">
-          ⭐ پرفروش‌ترین پلن
-        </div>
-
         <div>
-          <div class="flex items-center justify-between mb-4 pt-2">
-            <span class="text-2xl">🔵</span>
-            <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-300">استاندارد</span>
-          </div>
-          <h3 class="text-lg font-bold text-white mb-1">بسته استاندارد روزنه</h3>
-          <p class="text-xs text-slate-400 mb-5">پرفروش‌ترین پلن روزنه، استریم 4K یوتیوب و جلسات کاری</p>
-
-          <div class="mb-6">
-            <div class="text-3xl font-black text-emerald-400">۲۹۵,۰۰۰ <span class="text-xs font-normal text-slate-400">تومان</span></div>
-            <div class="text-xs text-slate-400 mt-1">اشتراک ۱ ماهه (۳۰ روزه)</div>
-          </div>
-
-          <ul class="space-y-3 text-xs text-slate-300 mb-6 border-t border-slate-800/80 pt-5">
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400 font-bold">✓</span>
-              <span><strong>۴۵ گیگابایت</strong> ترافیک خالص</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400 font-bold">✓</span>
-              <span>اتصال ۳ کاربر هم‌زمان</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400 font-bold">✓</span>
-              <span>پروتکل VLESS Reality + Fragment</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400 font-bold">✓</span>
-              <span>ترافیک Rollover (عدم سوختن حجم)</span>
-            </li>
+          <h3 class="footer-col-title">قوانین و پشتیبانی</h3>
+          <ul class="footer-links">
+            <li><a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer">ربات تلگرام (<bdi>@RoozanehNetBot</bdi>)</a></li>
+            <li><a href="https://t.me/RoozanehHelp" target="_blank" rel="noopener noreferrer">پشتیبانی ۲۴ ساعته (<bdi>@RoozanehHelp</bdi>)</a></li>
+            <li><a href="https://t.me/RoozanehNet" target="_blank" rel="noopener noreferrer">کانال اطلاع‌رسانی (<bdi>@RoozanehNet</bdi>)</a></li>
+            <li><a href="https://roozaneh.github.io/v2ray-clients-download/terms.html">قرارداد سطح خدمات (<bdi>SLA</bdi>)</a></li>
+            <li><a href="https://roozaneh.github.io/v2ray-clients-download/privacy.html">شفافیت فنی و حریم خصوصی</a></li>
           </ul>
         </div>
-
-        <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="emerald-glow w-full py-3 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-xs flex items-center justify-center transition-all">
-          خرید بسته استاندارد فوری
-        </a>
       </div>
 
-      <!-- Plan 4: VIP Pro -->
-      <div class="glass-card glass-card-hover rounded-3xl p-6 flex flex-col justify-between border-slate-800">
-        <div>
-          <div class="flex items-center justify-between mb-4">
-            <span class="text-2xl">🟣</span>
-            <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-purple-500/20 text-purple-300">حرفه‌ای VIP</span>
-          </div>
-          <h3 class="text-lg font-bold text-white mb-1">بسته حرفه‌ای (Pro)</h3>
-          <p class="text-xs text-slate-400 mb-5">حداکثر پهنای باند اختصاصی، ترید بایننس و گیمینگ</p>
-
-          <div class="mb-6">
-            <div class="text-3xl font-black text-white">۳۹۵,۰۰۰ <span class="text-xs font-normal text-slate-400">تومان</span></div>
-            <div class="text-xs text-slate-400 mt-1">اشتراک ۱ ماهه (۳۰ روزه)</div>
-          </div>
-
-          <ul class="space-y-3 text-xs text-slate-300 mb-6 border-t border-slate-800/80 pt-5">
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400">✓</span>
-              <span><strong>۷۵ گیگابایت</strong> ترافیک خالص</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400">✓</span>
-              <span>کاربر نامحدود خانوادگی</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400">✓</span>
-              <span>نود اختصاصی کم‌پینگ اروپا</span>
-            </li>
-            <li class="flex items-center gap-2">
-              <span class="text-emerald-400">✓</span>
-              <span>ترافیک Rollover + پشتیبانی VIP</span>
-            </li>
-          </ul>
-        </div>
-
-        <a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" rel="noopener noreferrer" class="w-full py-3 rounded-xl bg-slate-800 hover:bg-emerald-600 hover:text-white text-slate-200 font-bold text-xs flex items-center justify-center transition-colors">
-          خرید بسته حرفه‌ای
-        </a>
+      <div class="footer-bottom">
+        <span>© ۱۴۰۵ روزنه نت (<bdi>Roozaneh Net</bdi>)</span>
+        <span>تحلیل ترافیک با <bdi>GoatCounter</bdi> و <bdi>Microsoft Clarity</bdi> بدون ذخیره داده شخصی</span>
       </div>
-
-    </div>
-  </section>
-
-  <!-- Client Downloads Section -->
-  <section id="downloads" class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-    <div class="text-center max-w-3xl mx-auto mb-14">
-      <span class="text-emerald-400 text-sm font-bold tracking-wider uppercase mb-2 block">اپلیکیشن‌های رسمی اتصال</span>
-      <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight mb-4">
-        دانلود مستقیم کلاینت‌های V2Ray برای تمامی دستگاه‌ها
-      </h2>
-      <p class="text-slate-400 text-sm sm:text-base leading-relaxed">
-        لینک‌های سابسکریپشن هوشمند روزنه نت با تمام نرم‌افزارهای استاندارد هسته Xray سازگاری کامل دارند.
-      </p>
-    </div>
-
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-
-      <!-- Android -->
-      <div class="glass-card rounded-3xl p-6 text-center border-slate-800 flex flex-col justify-between">
-        <div>
-          <div class="w-14 h-14 mx-auto rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-3xl mb-4">
-            🤖
-          </div>
-          <h3 class="text-lg font-bold text-white mb-1">اندروید (Android)</h3>
-          <p class="text-xs text-slate-400 mb-5">نرم‌افزار رسمی v2rayNG</p>
-        </div>
-        <div class="space-y-2">
-          <a href="https://github.com/roozaneh/v2ray-clients-download#-آموزش-اتصال-در-اندروید-v2rayng" class="block w-full py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs transition-colors">
-            📥 دانلود مستقیم APK
-          </a>
-          <a href="https://github.com/roozaneh/v2ray-clients-download" class="block w-full py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs transition-colors">
-            مشاهده آموزش نصب
-          </a>
-        </div>
-      </div>
-
-      <!-- iOS -->
-      <div class="glass-card rounded-3xl p-6 text-center border-slate-800 flex flex-col justify-between">
-        <div>
-          <div class="w-14 h-14 mx-auto rounded-2xl bg-blue-500/10 border border-blue-500/20 flex items-center justify-center text-3xl mb-4">
-            🍏
-          </div>
-          <h3 class="text-lg font-bold text-white mb-1">آیفون و آیپد (iOS)</h3>
-          <p class="text-xs text-slate-400 mb-5">نرم‌افزار Streisand و V2Box</p>
-        </div>
-        <div class="space-y-2">
-          <a href="https://github.com/roozaneh/v2ray-clients-download#-آموزش-اتصال-در-آیفون-ios" class="block w-full py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs transition-colors">
-            📲 دانلود از App Store
-          </a>
-          <a href="https://github.com/roozaneh/v2ray-clients-download" class="block w-full py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs transition-colors">
-            راهنمای تنظیم سابسکریپشن
-          </a>
-        </div>
-      </div>
-
-      <!-- Windows -->
-      <div class="glass-card rounded-3xl p-6 text-center border-slate-800 flex flex-col justify-between">
-        <div>
-          <div class="w-14 h-14 mx-auto rounded-2xl bg-cyan-500/10 border border-cyan-500/20 flex items-center justify-center text-3xl mb-4">
-            💻
-          </div>
-          <h3 class="text-lg font-bold text-white mb-1">ویندوز (Windows)</h3>
-          <p class="text-xs text-slate-400 mb-5">نرم‌افزار v2rayN و NekoRay</p>
-        </div>
-        <div class="space-y-2">
-          <a href="https://github.com/roozaneh/v2ray-clients-download#-آموزش-اتصال-در-ویندوز-v2rayn" class="block w-full py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs transition-colors">
-            💻 دانلود نسخه Zip مستقیم
-          </a>
-          <a href="https://github.com/roozaneh/v2ray-clients-download" class="block w-full py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs transition-colors">
-            آموزش فعال‌سازی پروکسی
-          </a>
-        </div>
-      </div>
-
-      <!-- macOS -->
-      <div class="glass-card rounded-3xl p-6 text-center border-slate-800 flex flex-col justify-between">
-        <div>
-          <div class="w-14 h-14 mx-auto rounded-2xl bg-purple-500/10 border border-purple-500/20 flex items-center justify-center text-3xl mb-4">
-            🖥️
-          </div>
-          <h3 class="text-lg font-bold text-white mb-1">مک‌بوک (macOS)</h3>
-          <p class="text-xs text-slate-400 mb-5">نرم‌افزار FoXray و V2RayU</p>
-        </div>
-        <div class="space-y-2">
-          <a href="https://github.com/roozaneh/v2ray-clients-download#-سیستم‌عامل-مک-macos" class="block w-full py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-xs transition-colors">
-            🍏 دانلود نسخه Mac
-          </a>
-          <a href="https://github.com/roozaneh/v2ray-clients-download" class="block w-full py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs transition-colors">
-            راهنمای مک‌بوک M1/M2/Intel
-          </a>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- FAQ Accordion Section -->
-  <section id="faq" class="py-16 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-    <div class="text-center mb-12">
-      <span class="text-emerald-400 text-sm font-bold tracking-wider uppercase mb-2 block">پاسخ به ابهامات متداول</span>
-      <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight mb-4">
-        سوالات متداول کاربران در خصوص کانفیگ V2Ray
-      </h2>
-    </div>
-
-    <div class="space-y-4">
-      
-      <!-- FAQ 1 -->
-      <details class="glass-card rounded-2xl p-6 border border-slate-800/80 group [&_summary::-webkit-details-marker]:hidden cursor-pointer">
-        <summary class="flex items-center justify-between font-bold text-base text-white">
-          <span>۱. آیا کانفیگ‌های روزنه نت روی همراه اول و ایرانسل به طور هم‌زمان کار می‌کنند؟</span>
-          <span class="text-emerald-400 text-xl transition-transform duration-300 group-open:rotate-45">+</span>
-        </summary>
-        <p class="mt-4 text-slate-400 text-sm leading-relaxed border-t border-slate-800/80 pt-4">
-          بله! در لینک هوشمند سابسکریپشن روزنه مجموعه‌ای از نودهای اختصاصی بهینه‌شده برای همراه اول، ایرانسل و اینترنت ثابت ارائه می‌گردد تا هنگام جابجایی بین وای‌فای و داده همراه، همیشه بهترین سرور در دسترس باشد.
-        </p>
-      </details>
-
-      <!-- FAQ 2 -->
-      <details class="glass-card rounded-2xl p-6 border border-slate-800/80 group [&_summary::-webkit-details-marker]:hidden cursor-pointer">
-        <summary class="flex items-center justify-between font-bold text-base text-white">
-          <span>۲. تفاوت کانفیگ اختصاصی روزنه با کانفیگ‌های رایگان تلگرامی چیست؟</span>
-          <span class="text-emerald-400 text-xl transition-transform duration-300 group-open:rotate-45">+</span>
-        </summary>
-        <p class="mt-4 text-slate-400 text-sm leading-relaxed border-t border-slate-800/80 pt-4">
-          کانفیگ‌های عمومی تلگرام بر روی سرورهای اشتراکی شلوغ با پهنای باند ضعیف قرار دارند و بلافاصله توسط الگوریتم‌های هوش مصنوعی اپراتورها مسدود می‌شوند. سرورهای روزنه نت مجهز به تانل شیلد اختصاصی، پورت ۱۰ گیگابیت و فرگمنت TLS بدون قطعی هستند.
-        </p>
-      </details>
-
-      <!-- FAQ 3 -->
-      <details class="glass-card rounded-2xl p-6 border border-slate-800/80 group [&_summary::-webkit-details-marker]:hidden cursor-pointer">
-        <summary class="flex items-center justify-between font-bold text-base text-white">
-          <span>۳. قانون انحصاری عدم سوختن حجم (Data Rollover) چگونه کار می‌کند؟</span>
-          <span class="text-emerald-400 text-xl transition-transform duration-300 group-open:rotate-45">+</span>
-        </summary>
-        <p class="mt-4 text-slate-400 text-sm leading-relaxed border-t border-slate-800/80 pt-4">
-          در اکثر سرویس‌های موجود در بازار، در پایان ماه تمام ترافیک باقیمانده مشترک می‌سوزد. در روزنه نت، در صورت تمدید پیش از پایان تاریخ انقضا، تمامی گیگابایت‌های دست‌نخورده به صورت خودکار به بسته جدید اضافه می‌گردد.
-        </p>
-      </details>
-
-      <!-- FAQ 4 -->
-      <details class="glass-card rounded-2xl p-6 border border-slate-800/80 group [&_summary::-webkit-details-marker]:hidden cursor-pointer">
-        <summary class="flex items-center justify-between font-bold text-base text-white">
-          <span>۴. چطور می‌توانم قبل از خرید، کانفیگ را تست کنم؟</span>
-          <span class="text-emerald-400 text-xl transition-transform duration-300 group-open:rotate-45">+</span>
-        </summary>
-        <p class="mt-4 text-slate-400 text-sm leading-relaxed border-t border-slate-800/80 pt-4">
-          کافیست به ربات تلگرام روزنه نت به آدرس <a href="https://t.me/RoozanehNetBot?start=free_configs" class="text-emerald-400 underline font-semibold">@RoozanehNetBot</a> مراجعه نمایید و دکمه تست رایگان را بزنید تا ۲ الی ۳ گیگابایت کانفیگ فوری برای شما صادر شود.
-        </p>
-      </details>
-
-      <!-- FAQ 5 -->
-      <details class="glass-card rounded-2xl p-6 border border-slate-800/80 group [&_summary::-webkit-details-marker]:hidden cursor-pointer">
-        <summary class="flex items-center justify-between font-bold text-base text-white">
-          <span>۵. آیا برای استفاده به تنظیمات پیچیده یا دانش فنی نیاز است؟</span>
-          <span class="text-emerald-400 text-xl transition-transform duration-300 group-open:rotate-45">+</span>
-        </summary>
-        <p class="mt-4 text-slate-400 text-sm leading-relaxed border-t border-slate-800/80 pt-4">
-          خیر! کافیست نرم‌افزار متناسب با گوشی یا رایانه خود را نصب کنید و لینک هوشمند دریافتی از ربات را در نرم‌افزار Paste فرمایید. تمام تنظیمات مانند فرگمنت و روتینگ به شکل خودکار اعمال خواهند شد.
-        </p>
-      </details>
-
-    </div>
-  </section>
-
-  <!-- Network & Ecosystem Footer -->
-  <footer class="border-t border-slate-800/80 bg-slate-950/90 py-14 px-4 sm:px-6 lg:px-8 mt-16 text-right">
-    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
-      <!-- Col 1: About -->
-      <div>
-        <div class="flex items-center gap-2 mb-4">
-          <div class="w-8 h-8 rounded-xl bg-emerald-500 flex items-center justify-center text-slate-950 font-black text-sm">⚡</div>
-          <span class="text-lg font-extrabold text-white">شبکه روزنه نت</span>
-        </div>
-        <p class="text-xs text-slate-400 leading-relaxed">
-          مرجع توسعه کانفیگ‌های نسل سوم، ابزارهای عبور از نت ملی و کلاینت‌های ضد DPI برای کاربران ایرانی در سراسر جهان.
-        </p>
-      </div>
-
-      <!-- Col 2: Ecosystem Links -->
-      <div>
-        <h4 class="text-sm font-bold text-white mb-4">اکوسیستم مخازن رسمی</h4>
-        <ul class="space-y-2 text-xs text-slate-400">
-          <li><a href="https://roozaneh.github.io/v2ray-clients-download/" class="hover:text-emerald-400 transition-colors">دانلود کلاینت‌های V2Ray</a></li>
-          <li><a href="https://roozaneh.github.io/kharid-vpn-filter-shekan/" class="hover:text-emerald-400 transition-colors">راهنمای خرید VPN و فیلترشکن</a></li>
-          <li><a href="https://roozaneh.github.io/iran-tunnel-v2ray-netmeli/" class="hover:text-emerald-400 transition-colors">تانل اینترنت ملی و Clean IP</a></li>
-          <li><a href="https://github.com/roozaneh/v2ray-configs-iran" class="hover:text-emerald-400 transition-colors">مخزن گیت‌هاب کانفیگ‌ها</a></li>
-        </ul>
-      </div>
-
-      <!-- Col 3: Support & Community -->
-      <div>
-        <h4 class="text-sm font-bold text-white mb-4">پشتیبانی و تلگرام</h4>
-        <ul class="space-y-2 text-xs text-slate-400">
-          <li><a href="https://t.me/RoozanehNetBot?start=free_configs" target="_blank" class="hover:text-emerald-400 transition-colors">🤖 ربات هوشمند: @RoozanehNetBot</a></li>
-          <li><a href="https://t.me/RoozanehHelp" target="_blank" class="hover:text-emerald-400 transition-colors">💬 پشتیبانی آنلاین: @RoozanehHelp</a></li>
-          <li><a href="https://t.me/RoozanehNet" target="_blank" class="hover:text-emerald-400 transition-colors">📢 کانال تلگرام: @RoozanehNet</a></li>
-          <li><a href="https://roozaneh.github.io/" class="hover:text-emerald-400 transition-colors">🌐 وب‌سایت اصلی: roozaneh.github.io</a></li>
-        </ul>
-      </div>
-
-      <!-- Col 4: Trust Badge -->
-      <div>
-        <h4 class="text-sm font-bold text-white mb-4">امنیت و گارانتی</h4>
-        <div class="glass-card p-4 rounded-2xl border border-slate-800 text-xs text-slate-300 space-y-2">
-          <div class="text-emerald-400 font-bold">🔒 بدون ذخیره‌سازی لاگ</div>
-          <p class="text-slate-400 text-xs">اتصال شما با رمزنگاری سرتاسری محافظت شده و هیچ داده‌ای از کاربر ثبت نمی‌گردد.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="max-w-7xl mx-auto pt-8 border-t border-slate-800/60 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-      <div>© ۲۰۲۶ روزنه نت (Roozaneh Net) — تمامی حقوق محفوظ است.</div>
-      <div>پایدار، بدون محدودیت و آزاد در تمام اپراتورها</div>
     </div>
   </footer>
 
-  <!-- GoatCounter Analytics Script -->
-  <script data-goatcounter="https://roozaneh.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <script>
+    (function () {
+      var menuBtn = document.getElementById('mobile-menu-toggle');
+      var mobileNav = document.getElementById('mobile-nav');
+      if (menuBtn && mobileNav) {
+        menuBtn.addEventListener('click', function () {
+          var isOpen = mobileNav.classList.toggle('is-open');
+          menuBtn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        });
+        mobileNav.querySelectorAll('a').forEach(function (link) {
+          link.addEventListener('click', function () {
+            mobileNav.classList.remove('is-open');
+            menuBtn.setAttribute('aria-expanded', 'false');
+          });
+        });
+      }
 
+      var tabButtons = document.querySelectorAll('.tab-btn[data-tab]');
+      var tabPanels = document.querySelectorAll('.tab-panel[role="tabpanel"]');
+      tabButtons.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var targetId = btn.getAttribute('data-tab');
+          tabButtons.forEach(function (b) {
+            var active = b === btn;
+            b.classList.toggle('is-active', active);
+            b.setAttribute('aria-selected', active ? 'true' : 'false');
+          });
+          tabPanels.forEach(function (panel) {
+            panel.hidden = panel.id !== targetId;
+          });
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
